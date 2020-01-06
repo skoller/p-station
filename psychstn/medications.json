@@ -1,0 +1,658 @@
+[
+    {
+        "name":
+        [{
+            "generic": "Acamprosate",
+            "brand": ["Campral"]
+        }],
+        "fda": "",
+        "side effects": [{"Nausea *", "Diarrhea *", "Anxiety", "Depression", "Suicidality"}]
+    },
+    {
+        "name":
+        [{
+            "generic": "Agomelatine",
+            "brand": ["Valdoxan"]
+        }],
+        "fda": "",
+        "side effects": [{"Nausea *", "Dizziness *", "Somnolence", "Fatigue", "Insomnia", "Headache", "Anxiety", "GI upset", "hyperhidrosis", "Elevated Serum Transaminases", "Rare suicidatlity", "Rare hepatitis", "Rare mania induction"}]
+    },
+    {
+        "name":
+        [{
+            "generic": "Alprazolam", "brand": ["Xanax", "Xanax XR"]
+        }],
+        "fda": "",
+        "side effects": [{"Sedation *", "Fatigue", "depression", "dizziness", "ataxia", "weakness", "slurred speech", "confusion", "memory impairment", "nervousness", "excitability", "respiratory depression", "Rare renal dysfunction", "Rare hepatic dysfunction", "Rare blood dyscrasias"}]
+    },
+    {
+        "name":
+        [{
+            "generic": "Amisulpride", "brand": ["Solian"]
+        }],
+        "fda": "",
+        "side effects": [{"Extrapyramidal Symptoms *", "Galactorrhea", "Amenorrhea", "Risk of Hyperlipidemia", "Risk of Diabetes Mellitus", "Insomnia", "Sedation", "Agitation", "Anxiety", "Rare Tardive Dyskinesia", "Rare neuroleptic malignant syndrome", "Rare seizures", "Qtc prolongation", "Mortality in Elderly with dementia-related psychosis", "" }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Amitriptyline", "brand": ["Elavil"]
+        }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Acamprosate", "brand": ["Campral"]
+        }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Amoxapine", "brand": ["Asendin"]
+        }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Amphetamine D", "brand": ["Dexedrine", "Dexedrine Spansules", "Zenzedi", "ProCentra"]
+        }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Amphetamine D,L", "brand": ["Adderall", "Adderall XR", "Evekeo", "Adzenys-XR-ODT", "Dyanavel"]
+        }]
+        
+    },
+    {
+        "name":
+        [{
+            "generic": "Aripirazole", "brand": ["Abilify", "Abilify Maintena", "Aristada"]
+        }]
+    },
+    {
+        "name":
+        [{
+            "generic": "Armodafinil", "brand": ["Nuvigil"]
+        }]
+        
+    },
+    {
+        "name":
+        [{
+            "generic": "Asenapine", "brand": ["Saphris"]
+            
+        }]
+        
+    },
+    {
+        "name":
+        [{
+            "generic": "Atomoxetine", "brand": ["Strattera"]
+        }]
+        
+    },
+    {
+        "name": [{"generic": "Benztropine", "brand": ["Cogentin"]}]},{
+        "name": [{"generic": "Blonanserin", "brand": ["Lonasen"]}]},{
+        "name": [{"generic": "Brexpiprazole", "brand": ["Rexulti"]}]},{
+        "name": [{"generic": "Buprenorphine", "brand": ["Suboxone", "Probuphine"]}]},{
+        "name": [{"generic": "Bupropion", "brand": ["Wellbutrin", "Wellbutrin SR", "Wellbutrin XL", "Zyban", "Aplenzin"]}]},{
+        "name": [{"generic": "Buspirone", "brand": ["BuSpar"]}]},{
+        "name": [{"generic": "Caprylidene", "brand": ["Axona"]}]},{
+        "name": [{"generic": "Carbamazepine", "brand": ["Tegretol", "Carbatrol", "Equetro"]}]},{
+        "name": [{"generic": "Cariprazine", "brand": ["Vrylar"]}]},{
+        "name": [{"generic": "Chlordiazepoxide", "brand": ["Librium", "Limbitrol", "Librax"]}]},{
+        "name": [{"generic": "Chlorpromazine", "brand": ["Thorazine"]}]},{
+        "name": [{"generic": "Buspirone", "brand": ["BuSpar"]}]},{
+        "name": [{"generic": "Citalopram", "brand": ["Celexa"]}]},{
+        "name": [{"generic": "Clomipramine", "brand": ["Anafranil"]}]},{
+        "name": [{"generic": "Clonazepam", "brand": ["Klonopin"]}]},{
+        "name": [{"generic": "Clonidine", "brand": ["Catapres", "Kapvay", "Duraclon"]}]},{
+        "name": [{"generic": "Buspirone", "brand": ["BuSpar"]}]},{
+        "name": [{"generic": "Clorazepate", "brand": ["Azene", "Tranxene"]}]},{
+        "name": [{"generic": "Clozapine", "brand": ["Clozaril", "Leponex", "Versacloz", "Fazaclo ODT"]}]},{
+        "name": [{"generic": "Cyamemazine", "brand": ["Tercian"]}]},{
+        "name": [{"generic": "Desipramine", "brand": ["Norpramin"]}]},{
+        "name": [{"generic": "Desvenlafaxine", "brand": ["Pristiq"]}]},{
+        "name": [{"generic": "Dextromethorphan", "brand": ["Nuedexta *******combo with quinidine"]}]},{
+        "name": [{"generic": "Diazepam", "brand": ["Valium", "Diastat"]}]},{
+        "name": [{"generic": "Diphenhydramine", "brand": ["Benadryl", "Sominex"]}]},{
+        "name": [{"generic": "Disulfram", "brand": ["Antabuse"]}]},{
+        "name": [{"generic": "Donepezil", "brand": ["Aricept", "Memac"]}]},{
+        "name": [{"generic": "Dothiepin", "brand": ["Prothiaden"]}]},{
+        "name": [{"generic": "Doxepin", "brand": ["Sinequan", "Silenor"]}]},{
+        "name": [{"generic": "Duloxetine", "brand": ["Cymbalta"]}]},{
+        "name": [{"generic": "Escitalopram", "brand": ["Lexapro"]}]},{
+        "name": [{"generic": "Estazolam", "brand": ["ProSom"]}]},{
+        "name": [{"generic": "Eszoplicone", "brand": ["Lunesta"]}]},{
+        "name": [{"generic": "Flibaserin", "brand": ["Addyi"]}]},{
+        "name": [{"generic": "Flumazenil", "brand": ["Romazicon", "Anexate", "Lanexat"]}]},{
+        "name": [{"generic": "Flunitrazepam", "brand": ["Rohypnol"]}]},{
+        "name": [{"generic": "Fluoxetine", "brand": ["Prozac", "Prozac Weekly", "Sarafem"]}]},{
+        "name": [{"generic": "Flupenthixol", "brand": ["Depixol"]}]},{
+        "name": [{"generic": "Fluphenazine", "brand": ["Prolixin"]}]},{
+        "name": [{"generic": "Flurazepam", "brand": ["Dalmane"]}]},{
+        "name": [{"generic": "Fluvoxamine", "brand": ["Luvox", "Luvox CR"]}]},{
+        "name": [{"generic": "Gabapentin", "brand": ["Neurontin", "Horizant"]}]},{
+        "name": [{"generic": "Galantamine", "brand": ["Razadyne", "Razadyne ER"]}]},{
+        "name": [{"generic": "Guanfacine", "brand": ["Intuniv", "Tenex"]}]},{
+        "name": [{"generic": "Haloperidol", "brand": ["Haldol"]}]},{
+        "name": [{"generic": "Hydroxyzine", "brand": ["Atarax", "Marax", "Vistaril"]}]},{
+        "name": [{"generic": "Iloperidone", "brand": ["FANAPT"]}]},{
+        "name": [{"generic": "Imipramine", "brand": ["Tofranil"]}]},{
+        "name": [{"generic": "Isocarboxazid", "brand": ["Marplan"]}]},{
+        "name": [{"generic": "Ketamine", "brand": ["Ketalar"]}]},{
+        "name": [{"generic": "Lamotrigine", "brand": ["Lamictal", "Labileno", "Lamictin"]}]},{
+        "name": [{"generic": "Levitiracetam", "brand": ["Keppra", "Keppra XR"]}]},{
+        "name": [{"generic": "Levomilnacipran", "brand": ["Fetzima"]}]},{
+        "name": [{"generic": "Lisdexamfetamine", "brand": ["Vyvanse"]}]},{
+        "name": [{"generic": "Lithium", "brand": ["Eskalith", "Eskalith CR", "Lithobid slow-release", "Lithostat", "Lithium carbonate", "Lithium Citrate Syrup"]}]},{
+        "name": [{"generic": "Lofepramine", "brand": ["Deprimyl", "Gamanil"]}]},{
+        "name": [{"generic": "Loflazepate", "brand": ["Meilax"]}]},{
+        "name": [{"generic": "Lorazepam", "brand": ["Ativan"]}]},{
+        "name": [{"generic": "Lorcaserin", "brand": ["Belviq", "Belviq XR"]}]},{
+        "name": [{"generic": "Loxapine", "brand": ["Loxitane", "Adasuve"]}]},{
+        "name": [{"generic": "Lurasidone", "brand": ["Latuda"]}]},{
+        "name": [{"generic": "Maprotiline", "brand": ["Ludiomil"]}]},{
+        "name": [{"generic": "Memantine", "brand": ["Namenda", "Namenda XR"]}]},{
+        "name": [{"generic": "Mesoridazine", "brand": ["Serentil", "Lidanil"]}]},{
+        "name": [{"generic": "Methylfolate L", "brand": ["Deplin"]}]},{
+        "name": [{"generic": "Methylphenidate D", "brand": ["Focalin", "Focalin XR"]}]},{
+        "name": [{"generic": "Methylphenidate D,L", "brand": ["Concerta", "Metadate CD", "Ritalin", "Ritalin LA", "Methylin", "QuilliChew ER", "Quillivant XR", "Aptensio XR", "Daytrana"]}]},{
+        "name": [{"generic": "Mianserin", "brand": ["Lerivon"]}]},{
+        "name": [{"generic": "Midazolam", "brand": ["Versed"]}]},{
+        "name": [{"generic": "Milnacipran", "brand": ["Toledomin", "Ixel", "Savella"]}]},{
+        "name": [{"generic": "Mirtazapine", "brand": ["Remeron"]}]},{
+        "name": [{"generic": "Moclobemide", "brand": ["Aurorix", "Arima", "Manerix"]}]},{
+        "name": [{"generic": "Modafinil", "brand": ["Provigil", "Alertec", "Modiodal"]}]},{
+        "name": [{"generic": "Molidone", "brand": ["Moban"]}]},{
+        "name": [{"generic": "Nalmefene", "brand": ["Selincro"]}]},{
+        "name": [{"generic": "Naltrexone", "brand": ["Revia", "Vivitrol"]}]},{
+        "name": [{"generic": "Naltrexone-Bupropion", "brand": ["Contrave"]}]},{
+        "name": [{"generic": "Nefazodone", "brand": ["Dutonin"]}]},{
+        "name": [{"generic": "Nortriptyline", "brand": ["Pamelor"]}]},{
+        "name": [{"generic": "Olanzapine", "brand": ["Zyprexa", "Symbyax ***** combo olanzapine-fluoxetine", "Relprevv"]}]},{
+        "name": [{"generic": "Oxazepam", "brand": ["Serax"]}]},{
+        "name": [{"generic": "Oxcarbazepine", "brand": ["Trileptal"]}]},{
+        "name": [{"generic": "Paliperidone", "brand": ["Invega", "Invega Sustenna", "Invega Trinza"]}]},{
+        "name": [{"generic": "Paroxetine", "brand": ["Paxil", "Paxil CR"]}]},{
+        "name": [{"generic": "Perosprione", "brand": ["Lullan"]}]},{
+        "name": [{"generic": "Perphenazine", "brand": ["Trilafon"]}]},{
+        "name": [{"generic": "Phenelzine", "brand": ["Nardil", "Nardelzine"]}]},{
+        "name": [{"generic": "Phentermine-Topirimate", "brand": ["Qsymia ***** combo"]}]},{
+        "name": [{"generic": "Pimavanserin", "brand": ["Nuplazid"]}]},{
+        "name": [{"generic": "Pimozide", "brand": ["Orap"]}]},{
+        "name": [{"generic": "Pipothiazine", "brand": ["Piportil"]}]},{
+        "name": [{"generic": "Prazosin", "brand": ["Minipress"]}]},{
+        "name": [{"generic": "Pregabalin", "brand": ["Lyrica"]}]},{
+        "name": [{"generic": "Propranolol", "brand": ["Inderal", "Inderal LA", "InnoPran XL"]}]},{
+        "name": [{"generic": "Protriptyline", "brand": ["Triptil", "Vivactil"]}]},{
+        "name": [{"generic": "Quazepam", "brand": ["Doral"]}]},{
+        "name": [{"generic": "Quetiapine", "brand": ["Seroqeul", "Seroquel XR"]}]},{
+        "name": [{"generic": "Ramelteon", "brand": ["Rozerem"]}]},{
+        "name": [{"generic": "Reboxetine", "brand": ["Norebox", "Edronax"]}]},{
+        "name": [{"generic": "Risperidone", "brand": ["Risperdal", "Consta"]}]},{
+        "name": [{"generic": "Rivastigmine", "brand": ["Exelon"]}]},{
+        "name": [{"generic": "Selegiline", "brand": ["Emsam", "Eldepryl"]}]},{
+        "name": [{"generic": "Sertindole", "brand": ["Serdolect"]}]},{
+        "name": [{"generic": "Sertraline", "brand": ["Zoloft"]}]},{
+        "name": [{"generic": "Sodium Oxybate", "brand": ["Xyrem"]}]},{
+        "name": [{"generic": "Sulpiride", "brand": ["Dolmatil"]}]},{
+        "name": [{"generic": "Suvorexant", "brand": ["Belsomra"]}]},{
+        "name": [{"generic": "Tasimelteon", "brand": ["Hetlioz"]}]},{
+        "name": [{"generic": "Temazepam", "brand": ["Restoril"]}]},{
+        "name": [{"generic": "Thioridazine", "brand": ["Mellaril"]}]},{
+        "name": [{"generic": "Thiothixene", "brand": ["Navane"]}]},{
+        "name": [{"generic": "Tiagabine", "brand": ["Gabitril"]}]},{
+        "name": [{"generic": "Tianeptine", "brand": ["Coaxil", "Stablon", "Tatinol"]}]},{
+        "name": [{"generic": "Topiramate", "brand": ["Topomax", "Epitomax", "Topamac", "Topimax", "Trokendi XR", "Qsymia******** combo with phentermine"]}]},{
+        "name": [{"generic": "Tranylcypromine", "brand": ["Parnate"]}]},{
+        "name": [{"generic": "Trazodone", "brand": ["Desyrel", "Oleptro"]}]},{
+        "name": [{"generic": "Triazolam", "brand": ["Halcion"]}]},{
+        "name": [{"generic": "Trifluoperazine", "brand": ["Stelazine"]}]},{
+        "name": [{"generic": "Trihexyphenidyl", "brand": ["Artane"]}]},{
+        "name": [{"generic": "Triiodothyronine", "brand": ["Cytomel"]}]},{
+        "name": [{"generic": "Trimipramine", "brand": ["Surmontil"]}]},{
+        "name": [{"generic": "Valproate", "brand": ["Depakote", "Depakote ER", "Depakene", "Depacon", "Stavzor"]}]},{
+        "name": [{"generic": "Varenicline", "brand": ["Chantix", "Champix"]}]},{
+        "name": [{"generic": "Venlafaxine", "brand": ["Effexor", "Effexor XR"]}]},{
+        "name": [{"generic": "Vilazodone", "brand": ["Viibryd"]}]},{
+        "name": [{"generic": "Vortioxetine", "brand": ["Trintellix; formerly Brintellix"]}]},{
+        "name": [{"generic": "Zaleplon", "brand": ["Sonata"]}]},{
+        "name": [{"generic": "Ziprasidone", "brand": ["Geodon"]}]},{
+        "name": [{"generic": "Zolpidem", "brand": ["Ambien", "Ambien CR", "Intermezzo"]}]},{
+        "name": [{"generic": "Zonisamide", "brand": ["Zonegran", "Excegran"]}]},{
+        "name": [{"generic": "Zopiclone", "brand": ["Imovane"]}]},{
+        "name": [{"generic": "Zotepine", "brand": ["Lodopin", "Zoleptil"]}]},{
+        "name": [{"generic": "Zuclopenthixol", "brand": ["Clopixol", "Clopixol-Acuphase"]}]
+    }
+]
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "A",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+                "name": "Lithium",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+             
+            },
+            {
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+                "name": "Aripiprazole",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 8,
+                "restrictions": ["D", "G", "V"],
+                "description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+               
+            }
+        ]
+    },
+    {
+        "name": "B",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+        "items": [
+            {
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+                "name": "Penne Carbonara",
+                "photoCredit": "Brooke Lark",
+                "price": 15,
+                "restrictions": ["D", "G"],
+                "description": "What's better than a creamy artisinal[1] pasta that has been hand-made[2] by our chefs[3]? All that with bacon, of course! ([1] Shop bought; [2] Hand-purchased; [3] wait staff)"
+              
+            },
+            {
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+                "name": "Mushroom Tagliatelle",
+                "photoCredit": "Eaters Collective",
+                "price": 12,
+                "restrictions": ["D", "G", "V"],
+                "description": "If you're the kind of fun guy (sorry not sorry) that likes salami-filled Italian food with a twist, this is the perfect dish for you. The twist? We lied about the meat."
+             
+            }
+        ]
+    },
+    {
+        "name": "C",
+        "id": "1C89DAFD-7653-4EF2-BF20-C51A159BAC43",
+        "items": [
+            {
+                "id": "AB7E38EA-05A7-426A-AFF3-B3A32B3E86BF",
+                "name": "Strawberry Surprise",
+                "photoCredit": "Karly Gomez",
+                "price": 6,
+                "restrictions": ["D", "V"],
+                "description": "Bob, people keep asking us why this thing has D and V for its restrictions, and it's making other customers worry that we are some sort of D&V hotspot. [NOTE FOR BOB: Can we find another word for dairy intolerance?]"
+             
+            },
+            {
+                "id": "758ABBE3-F338-4F7C-BAC7-8D61BC1FB329",
+                "name": "Macarons Galore",
+                "photoCredit": "Mana",
+                "price": 8,
+                "restrictions": ["N", "V"],
+                "description": "For times when one, two, or even three macarons aren't enough, we're proud to present macarons galore – four macarons, to fully satisfy your craving for these sweet almondy delights!"
+               
+            }
+        ]
+    },
+    {
+        "name": "D",
+        "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE3C",
+        "items": [
+            {
+                "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
+                "name": "Virgin Mojito",
+                "photoCredit": "Melissa Walker Horn",
+                "price": 5,
+                "restrictions": ["V"],
+                "description": "The mojito is a classic drink of rum, mint, lime, and soda, but without the rum. So, this is basically an expensive glass of Sprite. We might put an umbrella in it so you don't feel quite so scammed."
+             
+            },
+            {
+                "id": "FC201614-1418-4152-9469-087B27485D13",
+                "name": "Strawberry Cooler",
+                "photoCredit": "Alex Loup",
+                "price": 6,
+                "restrictions": ["V"],
+                "description": "Step 1: Blend some frozen strawberries. Step 3: Profit! If you're reading this it means you've figured out step 2 for yourself."
+                
+            }
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A60",
+        "name": "E",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD0",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+                
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A61",
+        "name": "F",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD1",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+                
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A62",
+        "name": "G",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD2",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A63",
+        "name": "H",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD3",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A64",
+        "name": "I",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD4",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A65",
+        "name": "J",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD5",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A67",
+        "name": "K",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD7",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A68",
+        "name": "L",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD8",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A69",
+        "name": "M",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DD9",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A06",
+        "name": "N",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D0D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A16",
+        "name": "O",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D1D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A26",
+        "name": "P",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D2D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A36",
+        "name": "Q",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D3D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A46",
+        "name": "R",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D4D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A56",
+        "name": "S",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D5D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A76",
+        "name": "T",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D7D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A86",
+        "name": "U",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D8D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A96",
+        "name": "V",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84D9D",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6066",
+        "name": "W",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD840DD",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6166",
+        "name": "X",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD841DD",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6266",
+        "name": "Y",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD842DD",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6366",
+        "name": "Z",
+        "items": [
+            {
+                "id": "EDCD038C-036F-4C40-826F-61C88CD843DD",
+                "name": "Maple French Toast",
+                "photoCredit": "Joseph Gonzalez",
+                "price": 6,
+                "restrictions": ["G", "V"],
+                "description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+            },
+        ]
+    },
+]

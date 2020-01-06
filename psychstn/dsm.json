@@ -1,0 +1,107 @@
+[
+    {
+        "Neurodevelopmental Disorders":
+        [{
+            "Intellectual Disabilities": [],
+            "Communication Disorders": [],
+            "Autism Spectrum Disorders": [],
+            "Attention-Deficit/Hyperactivity Disorder": [],
+            "Specific Learning Disorder": [],
+            "Motor Disorders": [],
+            "Other Neurodevelopmental Disorders": ["Other Specified Neurodevelopmental Disorder":]
+        }],
+        "Schizophrenia Spectrum and Other Psychotic Disorders": [],
+        "Bipolar and Related Disorders": [],
+        "Depressive Disorders": [],
+        "Anxiety Disorders": [],
+        "Obsessive-Compulsive and Related Disorders": [],
+        "Trauma-Related Disorders and Stressor-related Disorders": [],
+        "Dissociative Disorders": [],
+        "Somatic Symptom and Related Disorders": [],
+        "Feeding and Eating Disorders": [],
+        "Elimination Disorders": [],
+        "Sleep-Wake Disorders": [],
+        "Sexual Dysfunctions": [],
+        "Gender Dysphoria": [],
+        "Disruptive, Impulse-Control, and Conduct Disorders": [],
+        "Substance-Related and Addictive Disorders": [],
+        "Neurocognitive Disorders": [],
+        "Personality Disorders": [],
+        "Paraphilic Disorders": [],
+        "Other Mental Disorders": [],
+        "Medication-Induced Movement Disorders and Other Adverse Effects of Medication": [],
+        "Other Conditions That May Be a Focus of Clinical Attention": []
+    }
+]
+
+#Intellectual Disability
+Modifiers: Mild, Moderate, Severe, Profound
+Criteria: must meet all Criteria
+1: Deficits in Intellectual functioning
+2: Deficits in Adaptive Functioning (communication, social, work, school)
+3: Onset during developmental period
+
+#Global Developmental Delay
+Criteria: must meet all Criteria
+1Must be under 5 years old
+2diagnostic criteria for Intellecutal Disability are impossible to evaluate with available tools because of young age
+3fails to meet developmental milestones in more than one area of intellectual functioning
+
+#Unspecified Intellectual Disability
+(Intellectual Developmental Disorder)
+1Must be at least 5 years
+2diagnostic criteria for Intellecutal Disability are impossible to evaluate with available tools because of sensory or physical impairments
+
+#Language Disorder
+Info: Persistent difficulties in acquisition or use of language (spoken, written, sign, other)
+Criteria: must meet all criteria
+1Reduced Vocabulary
+2Limited Sentence Structure
+3Impaired Discourse (explaining, describing, coversation)
+4Language level Substantially and Quantifiably below expected for age leading to impairment
+5Onset in early development
+6Not attrbuted to hearing, motor, or other medical condition
+
+#Speech Sound Disorder
+Criteria: must meet all Criteria
+1Difficulty with sound production preventing intelligible verbal communication
+2Impairment present in social, work, or school domains
+3Onset in early development
+4Not attributed to congenital or acquired conditions (cerebal palsy, cleft palate, hearing loss, TBI, or other medical conditions)
+
+#Childhood-Onset Fluency Disorder (Stuttering)
+Criteria:
+Must have 1 or more:
+-Sound and syllable repetitions
+-Prolongation of constants and vowels
+-Pauses within a word
+-Filled or unfilled pauses during speech
+-avoiding problematic words via word substitution
+-excessive physical tension related to word production
+-monosyllabic whole-word repetition
+Plus must meet all criteria:
+1Symptoms are anxiety provoking or impairing in social, work, or school domains
+2Onset in early development
+3Not attributed to motor-deficit, sensory-deficit, or prior neurologic insult (stroke, TBI, tumor)
+
+#Social (Pragmatic) Communication Disorder
+Criteria: must meet all criteria
+Impaired ability to (1-4):
+1communicate for the purpose of socializing
+2match communication to context (formal vs informal etc.)
+3follow rules of conversation (e.g. taking turns)
+4understand idioms or what is not explicitly stated
+5Impairment present in social, work, or school domains
+6Onset in early development
+7Not attributed to another medical condition or better explained by another DSM diagnosis
+
+#Uspecified Communication Disorder
+-Distress or impairement in social, work, or school domains related to communication
+-Criteria for other communication or developmental disorders not fully met
+
+#Attention-Deficit/Hyperactivity Disorder
+Criteria for Inattention and/or Hyperactivity-Impulsivity must be met
+Inattention (6 or more criteria required)
+1
+Hyperactivity-Impulsivity (6 or more required)
+
