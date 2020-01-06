@@ -17,7 +17,7 @@ import SwiftUI
     }
 
 
-struct ContentView: View {
+struct RootView: View {
 
 
     
@@ -74,7 +74,7 @@ struct ContentView: View {
                         }
                         HStack
                         {
-                            NavigationLink(destination: CheckView() )
+                            NavigationLink(destination: CheckView())
                             {Text("Check box")}
                         }
                     }.navigationBarTitle("Psych Station")
@@ -95,9 +95,9 @@ struct ContentView: View {
 
 //---------------------------------------------
 
-struct ContentView_Previews: PreviewProvider {
+struct RootView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RootView()
     }
 }
 
