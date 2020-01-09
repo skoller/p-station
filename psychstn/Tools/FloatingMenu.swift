@@ -17,31 +17,30 @@ struct FloatingMenu: View {
     
     var body: some View {
         VStack {
-//              Spacer()
+            Spacer()
+            
+              if showMenuItem1 {
+                  MenuItem(icon: "camera.fill")
+            
+              }
+              if showMenuItem2 {
+                  MenuItem(icon: "photo.on.rectangle")
+              }
+              if showMenuItem3 {
+                  MenuItem(icon: "square.and.arrow.up.fill")
+              }
+            
             
             Button(action: {
                 self.showMenu()
                 })
-                { Image(systemName: "plus.circle.fill") .resizable()
-                    .frame(width: 90, height: 90)
+                { Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .frame(width: 70, height: 70)
                     .foregroundColor(Color(red: 153/255, green: 102/255, blue: 255/255))
                     .shadow(color: .gray, radius: 0.2, x: 1, y: 1)
                     
-            }.frame(alignment: .leading)
-            
-            
-                      if showMenuItem1 {
-                          MenuItem(icon: "camera.fill")
-                    
-                      }
-                      if showMenuItem2 {
-                          MenuItem(icon: "photo.on.rectangle")
-                      }
-                      if showMenuItem3 {
-                          MenuItem(icon: "square.and.arrow.up.fill")
-                      }
-            
-                
+            }
         }
     }
     
@@ -78,7 +77,7 @@ struct MenuItem: View {
                 .foregroundColor(.white)
         }
         .shadow(color: .gray, radius: 0.2, x: 1, y: 1)
-        .transition(.move(edge: .leading))
+        .transition(.move(edge: .trailing ))
     }
 }
 

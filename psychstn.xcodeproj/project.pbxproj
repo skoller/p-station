@@ -20,19 +20,20 @@
 		5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90723A831A200B4CEFF /* AppDelegate.swift */; };
 		5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */; };
 		5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90B23A831A200B4CEFF /* psychstn.xcdatamodeld */; };
-		5CDAA90F23A831A200B4CEFF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90E23A831A200B4CEFF /* RootView.swift */; };
+		5CDAA90F23A831A200B4CEFF /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90E23A831A200B4CEFF /* TabsView.swift */; };
 		5CDAA91123A831A300B4CEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA91023A831A300B4CEFF /* Assets.xcassets */; };
 		5CDAA91423A831A300B4CEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA91323A831A300B4CEFF /* Preview Assets.xcassets */; };
 		5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA91523A831A300B4CEFF /* LaunchScreen.storyboard */; };
 		5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92023A93A3800B4CEFF /* Calculators.swift */; };
 		5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92223A9423600B4CEFF /* QuickReferences.swift */; };
 		5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92423A9426100B4CEFF /* Scales.swift */; };
-		5CDAA92723A98B1F00B4CEFF /* DSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92623A98B1F00B4CEFF /* DSM.swift */; };
 		5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */; };
 		5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92A23A98B5400B4CEFF /* Articles.swift */; };
-		5CDAA92D23A98B8200B4CEFF /* Medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92C23A98B8200B4CEFF /* Medications.swift */; };
+		5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */; };
 		5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */; };
 		5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF996E23C2E53A00F33CF9 /* CheckView.swift */; };
+		5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856023C40DFD0075DA6E /* ToolsView.swift */; };
+		5CFB856323C411020075DA6E /* DSMVview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856223C411020075DA6E /* DSMVview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +51,7 @@
 		5CDAA90723A831A200B4CEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5CDAA90C23A831A200B4CEFF /* psychstn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = psychstn.xcdatamodel; sourceTree = "<group>"; };
-		5CDAA90E23A831A200B4CEFF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5CDAA90E23A831A200B4CEFF /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		5CDAA91023A831A300B4CEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CDAA91323A831A300B4CEFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CDAA91623A831A300B4CEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,12 +59,13 @@
 		5CDAA92023A93A3800B4CEFF /* Calculators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculators.swift; sourceTree = "<group>"; };
 		5CDAA92223A9423600B4CEFF /* QuickReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferences.swift; sourceTree = "<group>"; };
 		5CDAA92423A9426100B4CEFF /* Scales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scales.swift; sourceTree = "<group>"; };
-		5CDAA92623A98B1F00B4CEFF /* DSM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSM.swift; sourceTree = "<group>"; };
 		5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treatment Guidelines.swift"; sourceTree = "<group>"; };
 		5CDAA92A23A98B5400B4CEFF /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
-		5CDAA92C23A98B8200B4CEFF /* Medications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medications.swift; sourceTree = "<group>"; };
+		5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
 		5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDosing.swift; sourceTree = "<group>"; };
 		5CDF996E23C2E53A00F33CF9 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		5CFB856023C40DFD0075DA6E /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		5CFB856223C411020075DA6E /* DSMVview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSMVview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,19 +89,17 @@
 			path = Calculators;
 			sourceTree = "<group>";
 		};
-		5C5A014123C3A97300ACC894 /* MainMenu */ = {
+		5C5A014123C3A97300ACC894 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 				5CDAA92023A93A3800B4CEFF /* Calculators.swift */,
 				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
 				5CDAA92423A9426100B4CEFF /* Scales.swift */,
-				5CDAA92C23A98B8200B4CEFF /* Medications.swift */,
 				5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */,
-				5CDAA92623A98B1F00B4CEFF /* DSM.swift */,
 				5CDAA92A23A98B5400B4CEFF /* Articles.swift */,
 				5C362C8A23B8F87C003E543E /* FloatingMenu.swift */,
 			);
-			path = MainMenu;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		5C5A014223C3A9D700ACC894 /* Json */ = {
@@ -154,8 +154,11 @@
 				5C7E2FFA23BE71B9005AB2DB /* Scales */,
 				5C362C8523B3FC78003E543E /* Calculators */,
 				5C5A014223C3A9D700ACC894 /* Json */,
-				5C5A014123C3A97300ACC894 /* MainMenu */,
-				5CDAA90E23A831A200B4CEFF /* RootView.swift */,
+				5C5A014123C3A97300ACC894 /* Tools */,
+				5CDAA90E23A831A200B4CEFF /* TabsView.swift */,
+				5CFB856223C411020075DA6E /* DSMVview.swift */,
+				5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */,
+				5CFB856023C40DFD0075DA6E /* ToolsView.swift */,
 				5CDAA90723A831A200B4CEFF /* AppDelegate.swift */,
 				5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */,
 				5CDAA91023A831A300B4CEFF /* Assets.xcassets */,
@@ -250,17 +253,18 @@
 			files = (
 				5C70FEAF23A9DCB7004FA5D0 /* Stress.swift in Sources */,
 				5C70FEAD23A9DCAD004FA5D0 /* Psychotic.swift in Sources */,
-				5CDAA92D23A98B8200B4CEFF /* Medications.swift in Sources */,
+				5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */,
+				5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */,
 				5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */,
 				5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */,
 				5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */,
 				5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */,
-				5CDAA92723A98B1F00B4CEFF /* DSM.swift in Sources */,
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
 				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,
 				5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */,
-				5CDAA90F23A831A200B4CEFF /* RootView.swift in Sources */,
+				5CDAA90F23A831A200B4CEFF /* TabsView.swift in Sources */,
+				5CFB856323C411020075DA6E /* DSMVview.swift in Sources */,
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
 				5C70FEAB23A9DCA0004FA5D0 /* Mood.swift in Sources */,

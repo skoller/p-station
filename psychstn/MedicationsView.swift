@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct Medications: View {
+struct MedicationsView: View {
     var body: some View {
         Text("this is a list of medications")
     }
 }
 
-struct Medications_Previews: PreviewProvider {
+struct MedicationsView_Previews: PreviewProvider {
     static var previews: some View {
-        Medications()
+        MedicationsView()
     }
 }
