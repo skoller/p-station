@@ -14,9 +14,11 @@
 		5C70FEAB23A9DCA0004FA5D0 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAA23A9DCA0004FA5D0 /* Mood.swift */; };
 		5C70FEAD23A9DCAD004FA5D0 /* Psychotic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAC23A9DCAD004FA5D0 /* Psychotic.swift */; };
 		5C70FEAF23A9DCB7004FA5D0 /* Stress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAE23A9DCB7004FA5D0 /* Stress.swift */; };
-		5C7E2FFC23BE71D2005AB2DB /* Mdq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7E2FFB23BE71D2005AB2DB /* Mdq.swift */; };
 		5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC223AAA40A0063B3AE /* medications.json */; };
 		5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC423AD4D420063B3AE /* dsm.json */; };
+		5CA52A5C23D952BC0028AD56 /* Mdq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5B23D952BC0028AD56 /* Mdq.swift */; };
+		5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5D23D957D20028AD56 /* JsonHelper.swift */; };
+		5CA52A6023D958DE0028AD56 /* mdq.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA52A5F23D958DE0028AD56 /* mdq.json */; };
 		5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90723A831A200B4CEFF /* AppDelegate.swift */; };
 		5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */; };
 		5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90B23A831A200B4CEFF /* psychstn.xcdatamodeld */; };
@@ -44,9 +46,11 @@
 		5C70FEAA23A9DCA0004FA5D0 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
 		5C70FEAC23A9DCAD004FA5D0 /* Psychotic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychotic.swift; sourceTree = "<group>"; };
 		5C70FEAE23A9DCB7004FA5D0 /* Stress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress.swift; sourceTree = "<group>"; };
-		5C7E2FFB23BE71D2005AB2DB /* Mdq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mdq.swift; sourceTree = "<group>"; };
 		5CA0DAC223AAA40A0063B3AE /* medications.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medications.json; sourceTree = "<group>"; };
 		5CA0DAC423AD4D420063B3AE /* dsm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dsm.json; sourceTree = "<group>"; };
+		5CA52A5B23D952BC0028AD56 /* Mdq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mdq.swift; sourceTree = "<group>"; };
+		5CA52A5D23D957D20028AD56 /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JsonHelper.swift; path = psychstn/JsonHelper.swift; sourceTree = SOURCE_ROOT; };
+		5CA52A5F23D958DE0028AD56 /* mdq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = mdq.json; path = psychstn/mdq.json; sourceTree = SOURCE_ROOT; };
 		5CDAA90423A831A200B4CEFF /* psychstn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psychstn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDAA90723A831A200B4CEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		5C5A014223C3A9D700ACC894 /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				5CA52A5F23D958DE0028AD56 /* mdq.json */,
+				5CA52A5D23D957D20028AD56 /* JsonHelper.swift */,
 				5CA0DAC223AAA40A0063B3AE /* medications.json */,
 				5CA0DAC423AD4D420063B3AE /* dsm.json */,
 			);
@@ -126,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				5CDF996E23C2E53A00F33CF9 /* CheckView.swift */,
-				5C7E2FFB23BE71D2005AB2DB /* Mdq.swift */,
+				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 			);
 			path = Scales;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			files = (
 				5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */,
 				5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */,
+				5CA52A6023D958DE0028AD56 /* mdq.json in Resources */,
 				5CDAA91423A831A300B4CEFF /* Preview Assets.xcassets in Resources */,
 				5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */,
 				5CDAA91123A831A300B4CEFF /* Assets.xcassets in Resources */,
@@ -272,7 +279,8 @@
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C70FEA923A9DC95004FA5D0 /* Personality.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
-				5C7E2FFC23BE71D2005AB2DB /* Mdq.swift in Sources */,
+				5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */,
+				5CA52A5C23D952BC0028AD56 /* Mdq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

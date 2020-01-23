@@ -8,35 +8,13 @@
 
 import SwiftUI
 
-//struct Calc
-//{
-//    var name: String
-//}
-
 struct Calculators: View {
-//
-//    let calcs = [
-//        Calc(name: "Lithium Dosing", link: LiDosing()),
-//        Calc(name: "Depakote Dosing", link: DepakoteDosing()),
-//        Calc(name: "Benzodiazepine Conversion", link: BenzoConversion())
-//    ]
-    
-    
-//    lazy var calcs = [a, b, c] as [Any]
-    
-    
-    
+
     var body: some View {
             List
             {
                 NavigationLink("Benzo Conversion", destination: BenzoConversion())
-//                ForEach(calcs, id: \.self
-//                { y in
-//                    NavigationLink(destination: Text("test"))
-//                    {
-//                        Text(y.name)
-//                    }
-//                }
+                NavigationLink("Lithium Dosing", destination: LiDosing())
         }.navigationBarTitle("Calculators")
       
 
@@ -48,13 +26,3 @@ struct Calculators_Previews: PreviewProvider {
         Calculators()
     }
 }
-
-
-//ContentView
-//    Calcs / Tools
-        
-//    Treatment_Guidelines
-//    Medications
-//    Scales
-//    Articles
-//

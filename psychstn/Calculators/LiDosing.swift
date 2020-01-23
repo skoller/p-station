@@ -8,84 +8,130 @@
 
 import SwiftUI
 
-struct LiDosing: View
-{
+struct LiDosing: View {
     
     @State private var wt = ""
     @State private var age = ""
     @State private var bun = ""
-    @State private var gc = ""
+    @State private var sex = false
+    @State private var tca = false
+    @State private var inpt = false
+    @State private var gc_selection = 0
+    let goals = ["0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2"]
+   
     
-    let goals = ["0.05", "0.1", "0.15", "0.2", "0.25", "0.3", "0.35", "0.4", "0.45", "0.5", "0.55", "0.6", "0.65", "0.7", "0.75", "0.8", "0.85", "0.9", "0.95", "1.0", "1.05", "1.1", "1.15", "1.2"]
-    
-    var recd_terao_dose: Double
-    {
-        let final_wt = Double(wt) ?? 0
-        let final_age = Double(age) ?? 0
-        let final_bun = Double(bun) ?? 0
-        let goal_conc = Double(gc) ?? 0
-        //calc value here
-        let terao_dose = 100.5 + (752.7 * goal_conc) - (3.6 * final_age) + (7.2 * final_wt) - (13.7 * final_bun)
+    var final_terao_dose: Double {
+            let final_wt = Double(wt) ?? 0
+            let final_age = Double(age) ?? 0
+            let final_bun = Double(bun) ?? 0
+            let goal_conc = Double(goals[gc_selection]) ?? 0
+            let gc_ = 752.7 * goal_conc
+            let age_ = 3.6 * final_age
+            let wt_ = 7.2 * final_wt
+            let bun_ = 13.7 * final_bun
+              var terao_dose = 100.5 + gc_ - age_ + wt_ - bun_
+                if final_wt == 0 || final_age == 0 || final_bun == 0 || goal_conc == 0 { terao_dose = 0.0 }
         return terao_dose
-    }
+        }
+
+    var final_zetin_dose: Double {
+            let final_wt = Double(wt) ?? 0
+            let final_age = Double(age) ?? 0
+            let goal_conc = Double(goals[gc_selection]) ?? 0
+            var final_sex = 0.0
+            var final_inpt = 0.0
+            var final_tca = 0.0
+            if sex { final_sex = 1 }
+            if inpt { final_inpt = 1 }
+            if tca { final_tca = 1 }
+            let conc_ = 746.83 * goal_conc
+            let age_ = 10.08 * final_age
+            let wt_ = 5.95 * final_wt
+            let sex_ = 147.8 * final_sex
+            let inpt_ = 92.01 * final_inpt
+            let tca_ = 74.73 * final_tca
+
+              var zetin_dose = 486.8 + conc_ - age_ + wt_ + sex_ + inpt_ - tca_
+                if final_wt == 0 || final_age == 0 || goal_conc == 0 { zetin_dose = 0.0 }
+              return zetin_dose
+        }
     
 
+    func display_dose(_ input: Double) -> String {
+        if input == 0.0 {
+            return "?"
+        }
+        else {
+            return String(Int(input)) + " mg"
+        }
+    }
     
-//    daily lithium carbonate dose (in milligrams) = 100.5 + 752.7 x (expected lithium concentration in millimoles per liter) - 3.6 x (age in years) + 7.2 x (weight in kilograms) - 13.7 x (blood urea nitrogen [BUN] in milligrams per deciliter)
-    var body: some View
-    {
+    
+    
+    
+    var body: some View {
         
-            Form
-            {
-                Section
-                {
-                    Picker(selection: $gc, label: Text("Goal Concentration in mmmol/L"))
-                    {
-                        ForEach(0..<goals.count) {
-                            Text(self.goals[$0])
-                        }
-                        
-                    }.pickerStyle(WheelPickerStyle())
-                }
+     VStack {
+           
                 
-            
-                Section
-                {
-                    TextField("Age", text: $age)
-                        .keyboardType(.decimalPad)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    Section(header: Text("Goal Serum Concentration")) {
+                        Picker(selection: $gc_selection, label: Text("Goal")) {
+                            ForEach(0..<goals.count) { index in
+                                Text(self.goals[index]).tag(index)
+                            }
+                        }
+                        .pickerStyle(SegmentedPickerStyle())
                     
-                    TextField("Weight", text: $wt)
-                        .keyboardType(.decimalPad)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                    TextField("BUN", text: $bun)
-                        .keyboardType(.decimalPad)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
+             Form {
+            
+            
+                Section {
+                    
                      
-                }
-    
-                Section
-                {
-                Text("Terao: \(recd_terao_dose)")
-                Text("Zetin: \(wt+age+bun)")
-                                      
+                           
+                            
+                                
+                                
+                               
+                            
+                            VStack {
+                                HStack {
+                                    Text("Age")
+                                    TextField("", text: $age)
+                                        .keyboardType(.numberPad)
+                                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                                }
+                                HStack {
+                                    Text("Weight")
+                                    TextField("", text: $wt)
+                                        .keyboardType(.decimalPad)
+                                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                                }
+                                HStack {
+                                    Text("BUN")
+                                    TextField("", text: $bun)
+                                        .keyboardType(.decimalPad)
+                                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                                }
+                            }
+                  }
+                    
+            
+                
+                Section(header: Text("Total Dose / Day:")) {
+                    Text("Terao: \(display_dose(final_terao_dose))")
+                    Text("Zetin: \(display_dose(final_zetin_dose))")
                 }
                 
             }
             .modifier(DismissingKeyboard())
             .navigationBarTitle("Lithium", displayMode: .inline)
-        
+        }
+      }
     }
 }
 
-//func(_ $age: inout String, _ $wt: inout String, _ $bun: inout String) -> String do {
-//    return ($age + $wt + $bun)
-//}
-//
-//func zetin(age age: Double, wt wt: Double, cr cr: Double) -> Double
-//{
-//    
-//}
+
 
 struct DismissingKeyboard: ViewModifier {
     func body(content: Content) -> some View {

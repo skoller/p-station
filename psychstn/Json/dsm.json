@@ -8,7 +8,7 @@
             "Attention-Deficit/Hyperactivity Disorder": [],
             "Specific Learning Disorder": [],
             "Motor Disorders": [],
-            "Other Neurodevelopmental Disorders": ["Other Specified Neurodevelopmental Disorder":]
+            "Other Neurodevelopmental Disorders": ["Other Specified Neurodevelopmental Disorder"]
         }],
         "Schizophrenia Spectrum and Other Psychotic Disorders": [],
         "Bipolar and Related Disorders": [],
@@ -34,6 +34,8 @@
     }
 ]
 
+ 
+ 
 #Intellectual Disability
 Modifiers: Mild, Moderate, Severe, Profound
 Criteria: must meet all Criteria
