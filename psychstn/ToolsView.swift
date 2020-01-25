@@ -68,16 +68,14 @@ struct ToolsView: View {
 //                        Text("About")
 //                        .font(.subheadline))
                         
-                
-                    
-//
+//              
 //        Rectangle()
 //                .foregroundColor(.clear)
 //                .frame(maxWidth: .infinity, maxHeight: .infinity)
 //
 //        FloatingMenu()
-            
-                           
+//            
+//                           
         }
     }
 }
