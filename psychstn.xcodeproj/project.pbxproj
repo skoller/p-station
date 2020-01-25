@@ -11,10 +11,6 @@
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
-		5C70FEA923A9DC95004FA5D0 /* Personality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEA823A9DC95004FA5D0 /* Personality.swift */; };
-		5C70FEAB23A9DCA0004FA5D0 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAA23A9DCA0004FA5D0 /* Mood.swift */; };
-		5C70FEAD23A9DCAD004FA5D0 /* Psychotic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAC23A9DCAD004FA5D0 /* Psychotic.swift */; };
-		5C70FEAF23A9DCB7004FA5D0 /* Stress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C70FEAE23A9DCB7004FA5D0 /* Stress.swift */; };
 		5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9060C323DA81DA009AFFDC /* CustomToggle.swift */; };
 		5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC223AAA40A0063B3AE /* medications.json */; };
 		5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC423AD4D420063B3AE /* dsm.json */; };
@@ -46,10 +42,6 @@
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
-		5C70FEA823A9DC95004FA5D0 /* Personality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality.swift; sourceTree = "<group>"; };
-		5C70FEAA23A9DCA0004FA5D0 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
-		5C70FEAC23A9DCAD004FA5D0 /* Psychotic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychotic.swift; sourceTree = "<group>"; };
-		5C70FEAE23A9DCB7004FA5D0 /* Stress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress.swift; sourceTree = "<group>"; };
 		5C9060C323DA81DA009AFFDC /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		5CA0DAC223AAA40A0063B3AE /* medications.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medications.json; sourceTree = "<group>"; };
 		5CA0DAC423AD4D420063B3AE /* dsm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dsm.json; sourceTree = "<group>"; };
@@ -123,17 +115,6 @@
 			path = Json;
 			sourceTree = "<group>";
 		};
-		5C70FEA723A9DC6E004FA5D0 /* DSM_Sections */ = {
-			isa = PBXGroup;
-			children = (
-				5C70FEA823A9DC95004FA5D0 /* Personality.swift */,
-				5C70FEAA23A9DCA0004FA5D0 /* Mood.swift */,
-				5C70FEAC23A9DCAD004FA5D0 /* Psychotic.swift */,
-				5C70FEAE23A9DCB7004FA5D0 /* Stress.swift */,
-			);
-			path = DSM_Sections;
-			sourceTree = "<group>";
-		};
 		5C7E2FFA23BE71B9005AB2DB /* Scales */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,7 +153,6 @@
 		5CDAA90623A831A200B4CEFF /* psychstn */ = {
 			isa = PBXGroup;
 			children = (
-				5C70FEA723A9DC6E004FA5D0 /* DSM_Sections */,
 				5C7E2FFA23BE71B9005AB2DB /* Scales */,
 				5C362C8523B3FC78003E543E /* Calculators */,
 				5C5A014223C3A9D700ACC894 /* Json */,
@@ -276,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C70FEAF23A9DCB7004FA5D0 /* Stress.swift in Sources */,
-				5C70FEAD23A9DCAD004FA5D0 /* Psychotic.swift in Sources */,
 				5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */,
 				5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */,
 				5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */,
@@ -292,11 +270,9 @@
 				5CFB856323C411020075DA6E /* DSMVview.swift in Sources */,
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
-				5C70FEAB23A9DCA0004FA5D0 /* Mood.swift in Sources */,
 				5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */,
 				5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */,
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
-				5C70FEA923A9DC95004FA5D0 /* Personality.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
 				5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */,
 				5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */,

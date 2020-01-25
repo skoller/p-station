@@ -12,61 +12,70 @@ struct ToolsView: View {
     var body: some View {
   
         NavigationView {
-                ScrollView {
-                    Divider()
+                List {
+                 
                         HStack {
                             NavigationLink(destination: Calculators())
                              {Text("Calculators")
-                             .foregroundColor(.white)}
-                             }
+                             .fontWeight(.thin)
+                             .font(.body)
+                             .foregroundColor(.blue)}
+                        }.frame(height: 60)
                            
-                    Divider()
+                   
                         HStack {
                            NavigationLink(destination: QuickReferences())
                             {Text("Quick References")
-                            .foregroundColor(.white)}
-                            }
-                    Divider()
+                            .fontWeight(.thin)
+                            .font(.body)
+                            .foregroundColor(.blue)}
+                            }.frame(height: 60)
+                  
                        HStack {
                            NavigationLink(destination: Scales())
                             {Text("Scales")
-                            .foregroundColor(.white)}
-                            }
-                    Divider()
+                            .fontWeight(.thin)
+                            .font(.body)
+                            .foregroundColor(.blue)}
+                            }.frame(height: 60)
+               
                        HStack {
                            NavigationLink(destination: Treatment_Guidelines())
                             {Text("Treatment Guidelines")
-                            .foregroundColor(.white)}
-                            }
-                    Divider()
+                            .fontWeight(.thin)
+                            .font(.body)
+                            .foregroundColor(.blue)}
+                            }.frame(height: 60)
+                
                        HStack {
                            NavigationLink(destination: Articles())
                             {Text("Article of the Month")
-                            .foregroundColor(.white)
-                            }
+                                
+                                .fontWeight(.thin)
+                                .font(.body)
+                                .foregroundColor(.blue)
+                            }.frame(height: 60)
                     }
                 }
                 .background(Color(red: 050/255, green: 130/255, blue: 160/255))
-                    
-                .navigationBarTitle("Psych Station")
-                .navigationBarItems(
-                    leading:
-                        Text("Search")
-                        .font(.subheadline),
-                    trailing:
-                        Text("About")
-                        .font(.subheadline)
-                    .edgesIgnoringSafeArea(.all)
-                    
-                )
+                .navigationBarTitle("Psych Station", displayMode: .inline)
+                
+//                .navigationBarItems(
+//                    leading:
+//                        Text("Search")
+//                        .font(.subheadline),
+//                    trailing:
+//                        Text("About")
+//                        .font(.subheadline))
+                        
                 
                     
-                
-        Rectangle()
-                .foregroundColor(.clear)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-        FloatingMenu()
+//
+//        Rectangle()
+//                .foregroundColor(.clear)
+//                .frame(maxWidth: .infinity, maxHeight: .infinity)
+//
+//        FloatingMenu()
             
                            
         }

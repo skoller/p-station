@@ -61,7 +61,7 @@ struct TabsView: View {
                             }
                         }
                         .tag(2)
-                    Text("Fourth View")
+                    Text("Settings")
                         .font(.title)
                         .tabItem {
                             VStack {
@@ -71,7 +71,7 @@ struct TabsView: View {
                         }
                     .tag(3)
         }
-        .accentColor(.white)
+        .accentColor(.blue)
         .opacity(1)
     }
 }
@@ -79,7 +79,7 @@ struct TabsView: View {
 //----------------------------------------------
 extension TabsView {
   func setupTabBar() {
-    UITabBar.appearance().barTintColor = .black
+    UITabBar.appearance().barTintColor = .lightGray
     UITabBar.appearance().tintColor = .blue
     UITabBar.appearance().layer.borderColor = UIColor.clear.cgColor
     UITabBar.appearance().clipsToBounds = true
