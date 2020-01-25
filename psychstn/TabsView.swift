@@ -20,12 +20,16 @@ import SwiftUI
 struct TabsView: View {
 
 @State private var selection = 0
+   
+    init() {
+      setupTabBar()
+    }
     
     var body: some View {
         
         TabView(selection: $selection){
                 
-            ToolsView()
+                ToolsView()
                     .font(.title)
                     .tabItem {
                         HStack {
@@ -66,13 +70,21 @@ struct TabsView: View {
                             }
                         }
                     .tag(3)
-            }
         }
+        .accentColor(.white)
+        .opacity(1)
+    }
 }
 
 //----------------------------------------------
-
-
+extension TabsView {
+  func setupTabBar() {
+    UITabBar.appearance().barTintColor = .black
+    UITabBar.appearance().tintColor = .blue
+    UITabBar.appearance().layer.borderColor = UIColor.clear.cgColor
+    UITabBar.appearance().clipsToBounds = true
+  }
+}
 //---------------------------------------------
 
 struct TabsView_Previews: PreviewProvider {
@@ -82,14 +94,4 @@ struct TabsView_Previews: PreviewProvider {
 }
 
 
-//    let menuItems =
-//    [
-//        MainMenuItem(name: "Calcs", icon: "1", favorite: false),
-//        MainMenuItem(name: "Quick References", icon: "2", favorite: false),
-//        MainMenuItem(name: "Scales", icon: "3", favorite: false)
-//    ]
-//    let ca = Calculators()
-//    let qr = QuickReferences()
-//    let sc = Scales()
-//
   

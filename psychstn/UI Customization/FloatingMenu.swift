@@ -21,7 +21,6 @@ struct FloatingMenu: View {
             
               if showMenuItem1 {
                   MenuItem(icon: "camera.fill")
-            
               }
               if showMenuItem2 {
                   MenuItem(icon: "photo.on.rectangle")
@@ -36,8 +35,8 @@ struct FloatingMenu: View {
                 })
                 { Image(systemName: "plus.circle.fill")
                     .resizable()
-                    .frame(width: 70, height: 70)
-                    .foregroundColor(Color(red: 153/255, green: 102/255, blue: 255/255))
+                    .frame(width: 25, height: 25)
+                    .foregroundColor(Color(red: 050/255, green: 100/255, blue: 200/255))
                     .shadow(color: .gray, radius: 0.2, x: 1, y: 1)
                     
             }
@@ -69,13 +68,14 @@ struct MenuItem: View {
     var body: some View {
         ZStack {
             Circle()
-                .foregroundColor(Color(red: 153/255, green: 102/255, blue: 255/255))
-                .frame(width: 55, height: 55)
+                .foregroundColor(Color(red: 050/255, green: 100/255, blue: 200/255))
+                .frame(width: 40, height: 40)
             
             Image(systemName: icon)
-                .imageScale(.large)
+                .imageScale(.small)
                 .foregroundColor(.white)
         }
+        .frame(width: 25, height: 45)
         .shadow(color: .gray, radius: 0.2, x: 1, y: 1)
         .transition(.move(edge: .trailing ))
     }

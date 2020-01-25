@@ -10,64 +10,66 @@ import SwiftUI
 
 struct ToolsView: View {
     var body: some View {
-        NavigationView
-               {
-
-
-                   ZStack(alignment: .bottomTrailing) {
-                       
+  
+        NavigationView {
+                ScrollView {
+                    Divider()
+                        HStack {
+                            NavigationLink(destination: Calculators())
+                             {Text("Calculators")
+                             .foregroundColor(.white)}
+                             }
+                           
+                    Divider()
+                        HStack {
+                           NavigationLink(destination: QuickReferences())
+                            {Text("Quick References")
+                            .foregroundColor(.white)}
+                            }
+                    Divider()
+                       HStack {
+                           NavigationLink(destination: Scales())
+                            {Text("Scales")
+                            .foregroundColor(.white)}
+                            }
+                    Divider()
+                       HStack {
+                           NavigationLink(destination: Treatment_Guidelines())
+                            {Text("Treatment Guidelines")
+                            .foregroundColor(.white)}
+                            }
+                    Divider()
+                       HStack {
+                           NavigationLink(destination: Articles())
+                            {Text("Article of the Month")
+                            .foregroundColor(.white)
+                            }
+                    }
+                }
+                .background(Color(red: 050/255, green: 130/255, blue: 160/255))
                     
-                       List {
-
-                               HStack
-                               {
-                                   NavigationLink(destination: Calculators())
-                                   {Text("Calculators")}
-                               }
-                               HStack
-                               {
-                                   NavigationLink(destination: QuickReferences())
-                                   {Text("Quick References")}
-                               }
-                               HStack
-                               {
-                                   NavigationLink(destination: Scales())
-                                   {Text("Scales")}
-                               }
-                            
-                               HStack
-                               {
-                                   NavigationLink(destination: Treatment_Guidelines())
-                                   {Text("Treatment Guidelines")}
-                               }
-                               HStack
-                               {
-                                   NavigationLink(destination: Articles())
-                                   {Text("Article of the Month")}
-                               }
-                               HStack
-                               {
-                                   NavigationLink(destination: FloatingMenu())
-                                   {Text("Floating Menu")}
-                               }
-                               HStack
-                               {
-                                   NavigationLink(destination: CheckView())
-                                   {Text("Check box")}
-                               }
-                           }
-                       .navigationBarTitle("Psych Station")
-                       
+                .navigationBarTitle("Psych Station")
+                .navigationBarItems(
+                    leading:
+                        Text("Search")
+                        .font(.subheadline),
+                    trailing:
+                        Text("About")
+                        .font(.subheadline)
+                    .edgesIgnoringSafeArea(.all)
                     
-                        
+                )
+                
                     
-                        Rectangle()
-                                .foregroundColor(.clear)
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        FloatingMenu()
-                                .padding()
-                   }
-           }
+                
+        Rectangle()
+                .foregroundColor(.clear)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+        FloatingMenu()
+            
+                           
+        }
     }
 }
 

@@ -18,10 +18,24 @@ struct LiDosing: View {
     @State private var inpt = false
     @State private var gc_selection = 0
     let goals = ["0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2"]
-   
+    @State private var lbs_selection = 0
+    let units = ["lbs", "kg"]
+    
+    var wt_to_kg: String {
+        if lbs_selection == 1 {
+            let x = Double(wt) ?? 0
+            return String(x/2.205)
+        }
+        else {
+            return wt
+        }
+    }
+    
+    
+    
     
     var final_terao_dose: Double {
-            let final_wt = Double(wt) ?? 0
+            let final_wt = Double(wt_to_kg) ?? 0
             let final_age = Double(age) ?? 0
             let final_bun = Double(bun) ?? 0
             let goal_conc = Double(goals[gc_selection]) ?? 0
@@ -59,7 +73,7 @@ struct LiDosing: View {
 
     func display_dose(_ input: Double) -> String {
         if input == 0.0 {
-            return "?"
+            return ""
         }
         else {
             return String(Int(input)) + " mg"
@@ -70,83 +84,97 @@ struct LiDosing: View {
     
     
     var body: some View {
+//
+//        VStack(alignment: .leading, spacing: 1.0) {
+//            Text("Goal Serum Concentration")
+//                .font(.subheadline)
+//                .fontWeight(.black)
+//                .multilineTextAlignment(.leading)
+//                .padding([.top, .leading])
+//
+//
+//            Picker(selection: $gc_selection, label: Text("Goal")) {
+//                                ForEach(0..<goals.count) { index in
+//                                    Text(self.goals[index]).tag(index)
+//                                }
+//            }.padding([.leading, .bottom, .trailing]).pickerStyle(SegmentedPickerStyle()).accentColor(/*@START_MENU_TOKEN@*/.green/*@END_MENU_TOKEN@*/)
+//
+//            HStack {
+//                VStack(alignment: .leading) {
+//
+//                    Text("Age:")
+//                        .multilineTextAlignment(.trailing)
+//                    Text("Weight:")
+//                        .multilineTextAlignment(.trailing)
+//
+//
+//                        TextField("", text: $age)
+//                            .keyboardType(.numberPad)
+//                            .textFieldStyle(RoundedBorderTextFieldStyle())
+//                            .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0), cornerRadius: 5.0)
+//                }
+//            }
+//            Spacer()
+//        }.navigationBarTitle("Lithium Dose Calculator", displayMode: .inline)
+//
+        Text("Li dosing calc")
+    }
+}
         
-     VStack {
-           
-                
-                    Section(header: Text("Goal Serum Concentration")) {
-                        Picker(selection: $gc_selection, label: Text("Goal")) {
-                            ForEach(0..<goals.count) { index in
-                                Text(self.goals[index]).tag(index)
-                            }
-                        }
-                        .pickerStyle(SegmentedPickerStyle())
-                    
-             Form {
-            
-            
-                Section {
-                    
-                     
-                           
-                            
-                                
-                                
-                               
-                            
-                            VStack {
-                                HStack {
-                                    Text("Age")
-                                    TextField("", text: $age)
-                                        .keyboardType(.numberPad)
-                                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                                }
-                                HStack {
-                                    Text("Weight")
-                                    TextField("", text: $wt)
-                                        .keyboardType(.decimalPad)
-                                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                                }
-                                HStack {
-                                    Text("BUN")
-                                    TextField("", text: $bun)
-                                        .keyboardType(.decimalPad)
-                                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                                }
-                            }
-                  }
-                    
-            
-                
-                Section(header: Text("Total Dose / Day:")) {
-                    Text("Terao: \(display_dose(final_terao_dose))")
-                    Text("Zetin: \(display_dose(final_zetin_dose))")
-                }
-                
-            }
-            .modifier(DismissingKeyboard())
-            .navigationBarTitle("Lithium", displayMode: .inline)
-        }
-      }
-    }
-}
+//        Section(header: Text("Goal Serum Concentration")) {
+//
+//                Picker(selection: $gc_selection, label: Text("Goal")) {
+//                    ForEach(0..<goals.count) { index in
+//                        Text(self.goals[index]).tag(index)
+//                    }
+//                }.pickerStyle(SegmentedPickerStyle())
+//        }
+//
+//
+//
+//            Section {
+//                        HStack {
+//                            Text("Age")
+//                            TextField("", text: $age)
+//                                .keyboardType(.numberPad)
+//                                .textFieldStyle(RoundedBorderTextFieldStyle())
+//                        }
+//                        HStack {
+//                            Text("Weight")
+//                            TextField("\(self.units[lbs_selection])", text: $wt)
+//                                .keyboardType(.decimalPad)
+//                                .textFieldStyle(RoundedBorderTextFieldStyle())
+//
+//                            Picker(selection: $lbs_selection, label: Text("units")) {
+//                                ForEach(0..<units.count) { index in
+//                                    Text(self.units[index]).tag(index)
+//                                }
+//                            }.pickerStyle(SegmentedPickerStyle())
+//                            .foregroundColor( (lbs_selection == 0) ? .blue : .green)
+//                        }
+//                        HStack {
+//                            Text("BUN")
+//                            TextField("", text: $bun)
+//                                .keyboardType(.decimalPad)
+//                                .textFieldStyle(RoundedBorderTextFieldStyle())
+//                        }
+//                   }
+//
+//
+//
+//                Section(header: Text("Total Dose / Day:")) {
+//                            Text("Terao: \(display_dose(final_terao_dose))")
+//                            Text("Zetin: \(display_dose(final_zetin_dose))")
+//                }
+//
+//            }
+//            .modifier(DismissingKeyboard())
+//            .navigationBarTitle("Lithium", displayMode: .inline)
+//    }
+//}
 
 
 
-struct DismissingKeyboard: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .onTapGesture {
-                let keyWindow = UIApplication.shared.connectedScenes
-                        .filter({$0.activationState == .foregroundActive})
-                        .map({$0 as? UIWindowScene})
-                        .compactMap({$0})
-                        .first?.windows
-                        .filter({$0.isKeyWindow}).first
-                keyWindow?.endEditing(true)
-        }
-    }
-}
 
 struct LiDosing_Previews: PreviewProvider {
     static var previews: some View {
