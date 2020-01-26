@@ -31,9 +31,7 @@ struct LiDosing: View {
         }
     }
     
-    
-    
-    
+
     var final_terao_dose: Double {
             let final_wt = Double(wt_to_kg) ?? 0
             let final_age = Double(age) ?? 0
@@ -84,94 +82,59 @@ struct LiDosing: View {
     
     
     var body: some View {
-//
-//        VStack(alignment: .leading, spacing: 1.0) {
-//            Text("Goal Serum Concentration")
-//                .font(.subheadline)
-//                .fontWeight(.black)
-//                .multilineTextAlignment(.leading)
-//                .padding([.top, .leading])
-//
-//
-//            Picker(selection: $gc_selection, label: Text("Goal")) {
-//                                ForEach(0..<goals.count) { index in
-//                                    Text(self.goals[index]).tag(index)
-//                                }
-//            }.padding([.leading, .bottom, .trailing]).pickerStyle(SegmentedPickerStyle()).accentColor(/*@START_MENU_TOKEN@*/.green/*@END_MENU_TOKEN@*/)
-//
-//            HStack {
-//                VStack(alignment: .leading) {
-//
-//                    Text("Age:")
-//                        .multilineTextAlignment(.trailing)
-//                    Text("Weight:")
-//                        .multilineTextAlignment(.trailing)
-//
-//
-//                        TextField("", text: $age)
-//                            .keyboardType(.numberPad)
-//                            .textFieldStyle(RoundedBorderTextFieldStyle())
-//                            .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0), cornerRadius: 5.0)
-//                }
-//            }
-//            Spacer()
-//        }.navigationBarTitle("Lithium Dose Calculator", displayMode: .inline)
-//
-        Text("Li dosing calc")
+
+        VStack {
+            List {
+                Text("Goal Serum Concentration")
+                    .font(.subheadline)
+                Picker(selection: $gc_selection, label: Text("Goal")) {
+                        ForEach(0..<goals.count) { index in
+                            Text(self.goals[index]).tag(index)
+                        }
+                }
+                
+                .pickerStyle(SegmentedPickerStyle())
+             
+
+                    TextField("Age", text: $age)
+                        .keyboardType(.numberPad)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("BUN", text: $bun)
+                        .keyboardType(.decimalPad)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("\(self.units[lbs_selection])", text: $wt)
+                        .keyboardType(.decimalPad)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+          
+                Section(header: Text("Total Dose / Day:")) {
+                    Text("Terao: \(display_dose(final_terao_dose))")
+                    Text("Zetin: \(display_dose(final_zetin_dose))")
+                }
+
+            }
+            .navigationBarTitle("Lithium Dose Calculator", displayMode: .inline)
+            .modifier(DismissingKeyboard())
+        }
+    
     }
 }
         
-//        Section(header: Text("Goal Serum Concentration")) {
-//
-//                Picker(selection: $gc_selection, label: Text("Goal")) {
-//                    ForEach(0..<goals.count) { index in
-//                        Text(self.goals[index]).tag(index)
-//                    }
-//                }.pickerStyle(SegmentedPickerStyle())
-//        }
-//
-//
-//
-//            Section {
-//                        HStack {
-//                            Text("Age")
-//                            TextField("", text: $age)
-//                                .keyboardType(.numberPad)
-//                                .textFieldStyle(RoundedBorderTextFieldStyle())
-//                        }
-//                        HStack {
-//                            Text("Weight")
-//                            TextField("\(self.units[lbs_selection])", text: $wt)
-//                                .keyboardType(.decimalPad)
-//                                .textFieldStyle(RoundedBorderTextFieldStyle())
-//
-//                            Picker(selection: $lbs_selection, label: Text("units")) {
-//                                ForEach(0..<units.count) { index in
-//                                    Text(self.units[index]).tag(index)
-//                                }
-//                            }.pickerStyle(SegmentedPickerStyle())
-//                            .foregroundColor( (lbs_selection == 0) ? .blue : .green)
-//                        }
-//                        HStack {
-//                            Text("BUN")
-//                            TextField("", text: $bun)
-//                                .keyboardType(.decimalPad)
-//                                .textFieldStyle(RoundedBorderTextFieldStyle())
-//                        }
-//                   }
-//
-//
-//
-//                Section(header: Text("Total Dose / Day:")) {
-//                            Text("Terao: \(display_dose(final_terao_dose))")
-//                            Text("Zetin: \(display_dose(final_zetin_dose))")
-//                }
-//
-//            }
-//            .modifier(DismissingKeyboard())
-//            .navigationBarTitle("Lithium", displayMode: .inline)
-//    }
-//}
+
+
+
+                     //
+                     //
+                     //
+                     //                Picker(selection: $lbs_selection, label: Text("units")) {
+                     //                           ForEach(0..<units.count) { index in
+                     //                                      Text(self.units[index]).tag(index)
+                     //                           }
+                     //                 }.pickerStyle(SegmentedPickerStyle())
+                     //                  .foregroundColor( (lbs_selection == 0) ? .blue : .green)
+                     //
+                     //
+                     //
+                     //
 
 
 
