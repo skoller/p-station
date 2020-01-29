@@ -13,6 +13,7 @@ struct Scales: View {
        
             List {
                 NavigationLink("MDQ", destination: Mdq())
+                NavigationLink("AIMS", destination: Aims())
             }.navigationBarTitle("Scales").font(.subheadline)
                 
         
