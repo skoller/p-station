@@ -22,6 +22,7 @@
 		5CD6DED223E20AB7008E0F77 /* aims_0-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED123E20AB7008E0F77 /* aims_0-9.json */; };
 		5CD6DED423E20B07008E0F77 /* aims_10-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED323E20B07008E0F77 /* aims_10-13.json */; };
 		5CD6DED623E21938008E0F77 /* Aims_qual_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */; };
+		5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */; };
 		5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90723A831A200B4CEFF /* AppDelegate.swift */; };
 		5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */; };
 		5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA90B23A831A200B4CEFF /* psychstn.xcdatamodeld */; };
@@ -57,6 +58,7 @@
 		5CD6DED123E20AB7008E0F77 /* aims_0-9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "aims_0-9.json"; path = "psychstn/Scales/aims_0-9.json"; sourceTree = SOURCE_ROOT; };
 		5CD6DED323E20B07008E0F77 /* aims_10-13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aims_10-13.json"; sourceTree = "<group>"; };
 		5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aims_qual_row.swift; sourceTree = "<group>"; };
+		5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aims_quant_row.swift; sourceTree = "<group>"; };
 		5CDAA90423A831A200B4CEFF /* psychstn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psychstn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDAA90723A831A200B4CEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CDAA90923A831A200B4CEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				5CDAA92023A93A3800B4CEFF /* Calculators.swift */,
-				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
 				5CDAA92423A9426100B4CEFF /* Scales.swift */,
 				5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */,
 				5CDAA92A23A98B5400B4CEFF /* Articles.swift */,
@@ -115,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5CD6DED123E20AB7008E0F77 /* aims_0-9.json */,
+				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
 				5CD6DED323E20B07008E0F77 /* aims_10-13.json */,
 				5CA52A5F23D958DE0028AD56 /* mdq.json */,
 				5CA52A5D23D957D20028AD56 /* JsonHelper.swift */,
@@ -131,6 +133,7 @@
 				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
 				5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */,
+				5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */,
 			);
 			path = Scales;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */,
 				5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */,
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
+				5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */,
 				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,
 				5CD6DED623E21938008E0F77 /* Aims_qual_row.swift in Sources */,

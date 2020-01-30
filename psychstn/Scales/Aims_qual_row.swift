@@ -10,7 +10,6 @@ import SwiftUI
 
 struct Aims_qual_row: View {
     
-    let aims_q_quant = Bundle.main.decode([Aims_questions].self, from: "aims_0-9.json")
     let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-13.json")
     
     
