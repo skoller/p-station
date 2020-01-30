@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct Aims_qual_row: View {
-
-let aims_q_quant = Bundle.main.decode([Aims_questions].self, from: "aims_0-9.json")
-let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-13.json")
+    
+    let aims_q_quant = Bundle.main.decode([Aims_questions].self, from: "aims_0-9.json")
+    let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-13.json")
     
     
     @State private var q10: Bool = false
@@ -40,14 +40,23 @@ let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-
     }
     
     var body: some View {
-        let questions: [[Int]] = [[0,0], [1,1], [2,2], [3,3]]
+        let questions: [[Int]] = [[20,0], [21,1], [22,2], [23,3]]
         
-        return ForEach(0..<questions.count, id: \.self) { tuple in
+        return ForEach(0..<questions.count, id: \.self) { pair in
             HStack {
-                ForEach(questions[tuple], id: \.self) { num in
-                    Button(action: { self.toggle(ans: num) } ) {
-                            Image(systemName: self.all_qual[num] ? "checkmark.square": "square")
-                            Text("\(self.aims_q_qual[num].q)")
+                ForEach(questions[pair], id: \.self) { num in
+                    HStack {
+                        if num > 19 {
+                            Button(action: { self.toggle(ans: pair) } ) {
+                                HStack {
+                                    Text("Yes")
+                                    Image(systemName: self.all_qual[pair] ? "checkmark.square": "square")
+                                }.padding(20)
+                            }
+                        }
+                        if num < 20 {
+                            Text("\(self.aims_q_qual[pair].q)")
+                        }
                     }
                 }
             }

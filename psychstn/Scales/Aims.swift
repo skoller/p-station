@@ -66,7 +66,7 @@ struct Aims: View {
     
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
             
             
             Text("Total Score: \(quant_score())")
