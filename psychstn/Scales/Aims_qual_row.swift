@@ -42,14 +42,13 @@ let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-
     var body: some View {
         let questions: [[Int]] = [[0,0], [1,1], [2,2], [3,3]]
         
-        return ForEach(0..<questions.count, id: \.self) { array in
+        return ForEach(0..<questions.count, id: \.self) { tuple in
             HStack {
-                ForEach(questions[array], id: \.self) { number in
-                    Button(action: { self.toggle(ans: number) } ) {
-                            Image(systemName: self.all_qual[number] ? "checkmark.square": "square")
-                            Text("\(self.aims_q_qual[number].q)")
+                ForEach(questions[tuple], id: \.self) { num in
+                    Button(action: { self.toggle(ans: num) } ) {
+                            Image(systemName: self.all_qual[num] ? "checkmark.square": "square")
+                            Text("\(self.aims_q_qual[num].q)")
                     }
-                    
                 }
             }
         }
