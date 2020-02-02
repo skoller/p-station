@@ -84,7 +84,7 @@ struct Mdq: View {
             Text("Total Score: \(score())")
             Divider()
             
-            ScrollView {
+            List {
                 ForEach(mdq_q) { i in
                     HStack {
                         Text(i.q).padding(20)

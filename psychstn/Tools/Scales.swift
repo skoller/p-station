@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct Scales: View {
+    @EnvironmentObject var scores: Scale_scores
     var body: some View {
        
             List {
@@ -22,6 +23,6 @@ struct Scales: View {
 
 struct Scales_Previews: PreviewProvider {
     static var previews: some View {
-        Scales()
+        Scales().environmentObject(Scale_scores())
     }
 }

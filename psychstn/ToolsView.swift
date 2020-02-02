@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ToolsView: View {
+    @EnvironmentObject var scores: Scale_scores
     var body: some View {
   
         NavigationView {
@@ -82,7 +83,7 @@ struct ToolsView: View {
 
 struct ToolsView_Previews: PreviewProvider {
     static var previews: some View {
-        ToolsView()
+        ToolsView().environmentObject(Scale_scores())
     }
 }
 

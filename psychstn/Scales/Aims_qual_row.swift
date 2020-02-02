@@ -66,6 +66,6 @@ struct Aims_qual_row: View {
 
 struct Aims_qual_row_Previews: PreviewProvider {
     static var previews: some View {
-        Aims_qual_row()
+    Aims_qual_row()
     }
 }

@@ -9,16 +9,23 @@
 import UIKit
 import SwiftUI
 
-class UserSettings: ObservableObject
-{
+class UserSettings: ObservableObject {
     @Published var favorites = []
     @Published var firstName = ""
     @Published var lastName = ""
     @Published var email = ""
 }
 
+class Scale_scores: ObservableObject {
+    @Published var aims_score = 0
+    @Published var aims_array = [0,0,0,0,0,0,0,0,0,0]
+}
 
-    
+extension View {
+    public func addBorder<S>(_ content: S, width: CGFloat = 1, cornerRadius: CGFloat) -> some View where S : ShapeStyle {
+        return overlay(RoundedRectangle(cornerRadius: cornerRadius).strokeBorder(content, lineWidth: width))
+    }
+}
 
 
 
@@ -28,8 +35,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     var settings = UserSettings()
-    let aims_q_quant = Bundle.main.decode([Aims_questions].self, from: "aims_0-9.json")
-    let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-13.json")
+    var scores = Scale_scores()
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -46,7 +52,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: tabsView.environmentObject(settings))
+            window.rootViewController = UIHostingController(rootView: tabsView
+                .environmentObject(settings)
+                .environmentObject(scores))
             self.window = window
             window.makeKeyAndVisible()
         }

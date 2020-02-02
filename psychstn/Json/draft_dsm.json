@@ -1,10 +1,54 @@
+[{
+    "id": "fecf3adb-9355-4381-b6b3-d3433cfc1f9b",
+    "category": "Neurodevelopmental Disorders",
+    "disorders": [{
+        "id": "aa3ea802-775f-4431-a245-f98dde9f0350",
+        "name": "Intellectual Disability",
+        "description": {
+            
+            "modifiers": ["mild", "moderate", "severe", "profound"],
+            
+            "required criteria": ["Deficits in Intellectual functioning", "Deficits in Adaptive Functioning (communication, social, work, school)", "Onset during developmental period"],
+            
+            "partial criteria": ["criteria 1", "criteria two", "criteria 3"],
+            
+            "minimum partial criteria": 2
+            
+            
+        }
+    },
+    {
+        "id": "b9d08006-c937-452d-9e22-882ba0aa09c1",
+        "name": "Global Developmental Delay",
+        "description": {}
+    },
+    {
+        "id": "4069513f-a081-46cd-9d0a-8b1851b3b3fb",
+        "name": "Unspecified Intellectual Disability",
+        "description": {}
+    }]
+}]
 
- {
+
+
+
+-----------------------
+ Dictionary (list of keys and matching values):     { "key1": "value1", "key2": "value2", "key3": "value3"}
+ Array(plain list):      ["thing 1", "thing 2", "thing 3"]
+ 
+ Dictionary with an array nested as one of the values:
+ {"key1": ["thing 1", "thing 2"], "key2": "value2", "key3": "value3", "key4": "value4"}
+ ----------------------
+
+
+
+{
      "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
      "name": "",
      "description": {}
  }
 
+----------------------------------
  
 
         "Neurodevelopmental Disorders": []
@@ -40,6 +84,9 @@
      "Motor Disorders": [],
      "Other Neurodevelopmental Disorders": ["Other Specified Neurodevelopmental Disorder"]
  }
+
+ 
+ ---------------------------------------------
  
 #Intellectual Disability
 Modifiers: Mild, Moderate, Severe, Profound

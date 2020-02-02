@@ -9,21 +9,22 @@
 import SwiftUI
 
 struct Aims: View {
+    @EnvironmentObject var scores: Scale_scores
     
     var body: some View {
-        
-        VStack(alignment: .leading) {
-            ScrollView {
+
+            VStack {
                 Divider()
-                Aims_quant_row()
-                Aims_qual_row()
-            }
-            
-        }.navigationBarTitle("Abnormal Involuntary Movement Scale (AIMS)", displayMode: .inline)
+                    Text("\(self.scores.aims_array.reduce(0, +))")
+                Divider()
+    
+                List {
+                    Aims_quant_row()
+                    Aims_qual_row()
+                }
+            }.navigationBarTitle("Abnormal Involuntary Movement Scale (AIMS)", displayMode: .inline)
     }
 }
-
-
 
 struct Aims_questions: Codable, Identifiable {
     var id: Int
@@ -37,19 +38,6 @@ struct Aims_qual_questions: Codable, Identifiable {
 
 struct Aims_Previews: PreviewProvider {
     static var previews: some View {
-        Aims()
+        Aims().environmentObject(Scale_scores())
     }
 }
-
-
-
-//                ForEach(aims_q_quant) { item in
-//                    HStack {
-//                        Text(item.q).padding(20)
-//                        Picker(selection: self.$question14, label: Text("\(item.id)")) {
-//                                Text("0")
-//                               .font(.subheadline)
-//                                }
-//                        }.pickerStyle(SegmentedPickerStyle())
-//                    }
-//                }
