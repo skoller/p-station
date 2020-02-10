@@ -102,13 +102,13 @@ struct LiDosing: View {
                     
                 VStack {
                         
-                        TextField("Age", text: $age)
+                        TextField("Years", text: $age)
                             .keyboardType(.numberPad)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                         
                         
                         
-                        TextField("BUN", text: $bun)
+                        TextField("mg/dL", text: $bun)
                             .keyboardType(.decimalPad)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                         
@@ -129,8 +129,10 @@ struct LiDosing: View {
                 }
                 
                 Section(header: Text("Total Dose / Day:")) {
+                 
                     Text("Terao: \(display_dose(final_terao_dose))")
                     Text("Zetin: \(display_dose(final_zetin_dose))")
+                 
                 }
                     
                     

@@ -15,8 +15,14 @@ struct Aims: View {
 
             VStack {
                 Divider()
-                    Text("\(self.scores.aims_array.reduce(0, +))")
-                Divider()
+                Text("Total Score: \(self.scores.aims_array.reduce(0, +))").font(.body).bold()
+                Text("Positive Screen").foregroundColor(.green)
+               Divider()
+                
+                Text("Question Key:").font(.caption)
+                Text("0 = None, 1 = Minimum, 2 = Mild, 3 = Moderate, 4 = Severe").font(.caption)
+                
+                 Divider()
     
                 List {
                     Aims_quant_row()

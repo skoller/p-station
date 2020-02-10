@@ -48,8 +48,8 @@ struct Aims_qual_row: View {
                         if num > 19 {
                             Button(action: { self.toggle(ans: pair) } ) {
                                 HStack {
-                                    Text("Yes")
-                                    Image(systemName: self.all_qual[pair] ? "checkmark.square": "square")
+                                    
+                                    Image(systemName: self.all_qual[pair] ? "checkmark.circle.fill": "checkmark.circle.fill")
                                 }.padding(20)
                             }
                         }

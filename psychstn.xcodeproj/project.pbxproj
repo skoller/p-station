@@ -14,7 +14,6 @@
 		5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9060C323DA81DA009AFFDC /* CustomToggle.swift */; };
 		5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC223AAA40A0063B3AE /* medications.json */; };
 		5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC423AD4D420063B3AE /* dsm.json */; };
-		5CA52A5C23D952BC0028AD56 /* Mdq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5B23D952BC0028AD56 /* Mdq.swift */; };
 		5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5D23D957D20028AD56 /* JsonHelper.swift */; };
 		5CA52A6023D958DE0028AD56 /* mdq.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA52A5F23D958DE0028AD56 /* mdq.json */; };
 		5CB43EFA23DBF6F0001E35CA /* draft_dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB43EF923DBF6F0001E35CA /* draft_dsm.json */; };
@@ -38,6 +37,7 @@
 		5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */; };
 		5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */; };
 		5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDF996E23C2E53A00F33CF9 /* CheckView.swift */; };
+		5CF3660023E660420065BF73 /* Mdq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5B23D952BC0028AD56 /* Mdq.swift */; };
 		5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856023C40DFD0075DA6E /* ToolsView.swift */; };
 		5CFB856323C411020075DA6E /* DSMVview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856223C411020075DA6E /* DSMVview.swift */; };
 /* End PBXBuildFile section */
@@ -295,8 +295,8 @@
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
 				5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */,
+				5CF3660023E660420065BF73 /* Mdq.swift in Sources */,
 				5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */,
-				5CA52A5C23D952BC0028AD56 /* Mdq.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,7 @@ struct CheckView: View {
     var body: some View {
             Button(action: toggle){
                 HStack{
-                    Image(systemName: isChecked ? "checkmark.square": "square")
+                    Image(systemName: isChecked ? "confirmation": "square")
                     Text(isChecked ? title : "")
                 }
             }
