@@ -15,6 +15,7 @@ struct AimsMailView: UIViewControllerRepresentable {
 
     @Environment(\.presentationMode) var presentation
     @Binding var result: Result<MFMailComposeResult, Error>?
+//    @Binding var pt_id: String
     
 
     class Coordinator: NSObject, MFMailComposeViewControllerDelegate {
@@ -61,7 +62,16 @@ struct AimsMailView: UIViewControllerRepresentable {
     
     func makeUIViewController(context: UIViewControllerRepresentableContext<AimsMailView>) -> MFMailComposeViewController {
         let vc = MFMailComposeViewController()
-        vc.setToRecipients(["nskoller@gmail.com"])
+            let dateCurrent = Date()
+            let formatter = DateFormatter()
+                formatter.locale = Locale(identifier: "en_US")
+                formatter.timeStyle = .short
+                formatter.dateStyle = .medium
+                formatter.dateFormat = "MMMM d, yyyy 'at' h:mm a"
+                formatter.amSymbol = "AM"
+                formatter.pmSymbol = "PM"
+        vc.setSubject("AIMS Result")
+        vc.setToRecipients([""])
         vc.setMessageBody(
             """
             <html>
@@ -71,9 +81,10 @@ struct AimsMailView: UIViewControllerRepresentable {
             
                 <body>
                     <h2>AIMS Total Score: \(self.scores.aims_array.reduce(0, +))</h2>
-                    <h2>Patient ID: </h2>
+            <h2>Patient ID: </h2>
+            <h3>\(formatter.string(from: dateCurrent))</h3>
                 
-                    <table><tr><th>Item Score</th><th>Question</th></tr>
+                    <table><tr><th>Item Score</th><th>Item</th></tr>
                         <tr><td> \(self.scores.aims_array[0]) </td><td>Muscles of Facial Expression: e.g. movements of forehead, eyebrows, periorbital area, cheeks, including frowning, blinking, smiling, grimacing</td></tr>
                         
                         <tr><td> \(self.scores.aims_array[1]) </td><td>Lips and Perioral Area: e.g. puckering, pouting, smacking</td></tr>

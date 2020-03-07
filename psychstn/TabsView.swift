@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+   
+
 
 struct MainMenuItem
 {
@@ -16,8 +18,10 @@ struct MainMenuItem
     var favorite: Bool
 }
 
+ 
 
 struct TabsView: View {
+    
     @EnvironmentObject var scores: Scale_scores
     @State private var selection = 0
     
@@ -26,6 +30,9 @@ struct TabsView: View {
     }
     
     var body: some View {
+        
+       
+        
         
         TabView(selection: $selection){
             
@@ -61,7 +68,7 @@ struct TabsView: View {
                     }
             }
             .tag(2)
-            Text("Settings")
+            SettingsView()
                 .font(.title)
                 .tabItem {
                     VStack {

@@ -8,11 +8,21 @@
 
 import SwiftUI
 
+    let delegate = UIApplication.shared.delegate as! AppDelegate
+    let times = delegate.currentTimesOfOpenApp
+
 struct ToolsView: View {
+    
     @EnvironmentObject var scores: Scale_scores
+
+    
     var body: some View {
   
         NavigationView {
+            
+    
+            
+            
                 List {
                  
                         HStack {

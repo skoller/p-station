@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import Foundation
 
 class UserSettings: ObservableObject {
     @Published var favorites = []
@@ -23,12 +24,12 @@ class Scale_scores: ObservableObject {
     @Published var asrs_array = [0,0,0,0,0,0]
 }
 
+
 extension View {
     public func addBorder<S>(_ content: S, width: CGFloat = 1, cornerRadius: CGFloat) -> some View where S : ShapeStyle {
         return overlay(RoundedRectangle(cornerRadius: cornerRadius).strokeBorder(content, lineWidth: width))
     }
 }
-
 
 
 
