@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */; };
-		5C12F2B3241353E30078F17E /* aims_shared_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12F2B2241353E30078F17E /* aims_shared_result.swift */; };
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
@@ -49,7 +48,6 @@
 
 /* Begin PBXFileReference section */
 		5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DismissingKeyboard.swift; path = psychstn/DismissingKeyboard.swift; sourceTree = SOURCE_ROOT; };
-		5C12F2B2241353E30078F17E /* aims_shared_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aims_shared_result.swift; sourceTree = "<group>"; };
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			children = (
 				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
-				5C12F2B2241353E30078F17E /* aims_shared_result.swift */,
 				5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */,
 				5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */,
 				5C47816D23F2263D008F2CF4 /* Asrs_row.swift */,
@@ -310,7 +307,6 @@
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
 				5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */,
-				5C12F2B3241353E30078F17E /* aims_shared_result.swift in Sources */,
 				5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */,
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
