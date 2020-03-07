@@ -11,6 +11,9 @@
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
+		5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47816D23F2263D008F2CF4 /* Asrs_row.swift */; };
+		5C47817023F226DD008F2CF4 /* asrs.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C47816F23F226DD008F2CF4 /* asrs.json */; };
+		5C47817223F22A54008F2CF4 /* Asrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47817123F22A54008F2CF4 /* Asrs.swift */; };
 		5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9060C323DA81DA009AFFDC /* CustomToggle.swift */; };
 		5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC223AAA40A0063B3AE /* medications.json */; };
 		5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC423AD4D420063B3AE /* dsm.json */; };
@@ -47,6 +50,9 @@
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
+		5C47816D23F2263D008F2CF4 /* Asrs_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asrs_row.swift; sourceTree = "<group>"; };
+		5C47816F23F226DD008F2CF4 /* asrs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = asrs.json; sourceTree = "<group>"; };
+		5C47817123F22A54008F2CF4 /* Asrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asrs.swift; sourceTree = "<group>"; };
 		5C9060C323DA81DA009AFFDC /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		5CA0DAC223AAA40A0063B3AE /* medications.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medications.json; sourceTree = "<group>"; };
 		5CA0DAC423AD4D420063B3AE /* dsm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dsm.json; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 		5C5A014223C3A9D700ACC894 /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				5C47816F23F226DD008F2CF4 /* asrs.json */,
 				5CD6DED123E20AB7008E0F77 /* aims_0-9.json */,
 				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
 				5CD6DED323E20B07008E0F77 /* aims_10-13.json */,
@@ -134,6 +141,8 @@
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
 				5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */,
 				5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */,
+				5C47816D23F2263D008F2CF4 /* Asrs_row.swift */,
+				5C47817123F22A54008F2CF4 /* Asrs.swift */,
 			);
 			path = Scales;
 			sourceTree = "<group>";
@@ -256,6 +265,7 @@
 			files = (
 				5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */,
 				5CD6DED423E20B07008E0F77 /* aims_10-13.json in Resources */,
+				5C47817023F226DD008F2CF4 /* asrs.json in Resources */,
 				5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */,
 				5CA52A6023D958DE0028AD56 /* mdq.json in Resources */,
 				5CD6DED223E20AB7008E0F77 /* aims_0-9.json in Resources */,
@@ -277,10 +287,12 @@
 				5CD6DED023E20786008E0F77 /* Aims.swift in Sources */,
 				5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */,
 				5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */,
+				5C47817223F22A54008F2CF4 /* Asrs.swift in Sources */,
 				5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */,
 				5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */,
 				5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */,
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
+				5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */,
 				5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */,
 				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,

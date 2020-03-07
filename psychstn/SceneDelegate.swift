@@ -19,6 +19,7 @@ class UserSettings: ObservableObject {
 class Scale_scores: ObservableObject {
     @Published var aims_score = 0
     @Published var aims_array = [0,0,0,0,0,0,0,0,0,0]
+    @Published var asrs_array = [0,0,0,0,0,0]
 }
 
 extension View {
