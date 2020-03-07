@@ -7,28 +7,45 @@
 //
 
 import SwiftUI
+import UIKit
+import MessageUI
 
 struct Aims: View {
     @EnvironmentObject var scores: Scale_scores
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
+    @State var alertNoMail = false
     
     var body: some View {
-
-            VStack {
-                Divider()
-                Text("Total Score: \(self.scores.aims_array.reduce(0, +))").font(.body).bold()
-                Text("Positive Screen").foregroundColor(.green)
-               Divider()
-                
-                Text("Question Key:").font(.caption)
-                Text("0 = None, 1 = Minimum, 2 = Mild, 3 = Moderate, 4 = Severe").font(.caption)
-                
-                 Divider()
-    
-                List {
-                    Aims_quant_row()
-                    Aims_qual_row()
+        
+        VStack {
+            
+            Divider()
+            
+            Text("Total Score: \(self.scores.aims_array.reduce(0, +))").font(.body).bold()
+            
+            Button(action: { self.isShowingMailView.toggle()}) {
+                    Image(systemName: "envelope").imageScale(.large)
+                    Text("Email Result")
                 }
-            }.navigationBarTitle("Abnormal Involuntary Movement Scale (AIMS)", displayMode: .inline)
+                .onTapGesture {MFMailComposeViewController.canSendMail() ? self.isShowingMailView.toggle() : self.alertNoMail.toggle()}
+                .sheet(isPresented: $isShowingMailView) {MailView(result: self.$result) }
+                .alert(isPresented: self.$alertNoMail) {Alert(title: Text("NO MAIL SETUP"))}
+            
+            
+            Divider()
+            
+            Text("Question Key:").font(.caption)
+            Text("0 = None, 1 = Minimum, 2 = Mild, 3 = Moderate, 4 = Severe").font(.caption)
+            
+            Divider()
+            
+            List {
+                Aims_quant_row()
+                Aims_qual_row()
+            }
+            
+        }.navigationBarTitle("Abnormal Involuntary Movement Scale (AIMS)", displayMode: .inline)
     }
 }
 
@@ -47,3 +64,4 @@ struct Aims_Previews: PreviewProvider {
         Aims().environmentObject(Scale_scores())
     }
 }
+
