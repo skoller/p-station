@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */; };
+		5C12F2B3241353E30078F17E /* aims_shared_result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C12F2B2241353E30078F17E /* aims_shared_result.swift */; };
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
@@ -20,7 +21,7 @@
 		5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5D23D957D20028AD56 /* JsonHelper.swift */; };
 		5CA52A6023D958DE0028AD56 /* mdq.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA52A5F23D958DE0028AD56 /* mdq.json */; };
 		5CB43EFA23DBF6F0001E35CA /* draft_dsm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CB43EF923DBF6F0001E35CA /* draft_dsm.json */; };
-		5CB827C72413297200E5890F /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB827C62413297200E5890F /* MailView.swift */; };
+		5CB827C72413297200E5890F /* AimsMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB827C62413297200E5890F /* AimsMailView.swift */; };
 		5CD6DED023E20786008E0F77 /* Aims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6DECF23E20786008E0F77 /* Aims.swift */; };
 		5CD6DED223E20AB7008E0F77 /* aims_0-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED123E20AB7008E0F77 /* aims_0-9.json */; };
 		5CD6DED423E20B07008E0F77 /* aims_10-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED323E20B07008E0F77 /* aims_10-13.json */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DismissingKeyboard.swift; path = psychstn/DismissingKeyboard.swift; sourceTree = SOURCE_ROOT; };
+		5C12F2B2241353E30078F17E /* aims_shared_result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aims_shared_result.swift; sourceTree = "<group>"; };
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
@@ -61,7 +63,7 @@
 		5CA52A5D23D957D20028AD56 /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JsonHelper.swift; path = psychstn/JsonHelper.swift; sourceTree = SOURCE_ROOT; };
 		5CA52A5F23D958DE0028AD56 /* mdq.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = mdq.json; path = psychstn/mdq.json; sourceTree = SOURCE_ROOT; };
 		5CB43EF923DBF6F0001E35CA /* draft_dsm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = draft_dsm.json; sourceTree = "<group>"; };
-		5CB827C62413297200E5890F /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		5CB827C62413297200E5890F /* AimsMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimsMailView.swift; sourceTree = "<group>"; };
 		5CD6DECF23E20786008E0F77 /* Aims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aims.swift; sourceTree = "<group>"; };
 		5CD6DED123E20AB7008E0F77 /* aims_0-9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "aims_0-9.json"; path = "psychstn/Scales/aims_0-9.json"; sourceTree = SOURCE_ROOT; };
 		5CD6DED323E20B07008E0F77 /* aims_10-13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aims_10-13.json"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
+				5C12F2B2241353E30078F17E /* aims_shared_result.swift */,
 				5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */,
 				5CD6DED723E27CFA008E0F77 /* Aims_quant_row.swift */,
 				5C47816D23F2263D008F2CF4 /* Asrs_row.swift */,
@@ -152,7 +155,7 @@
 		5C9060C223DA81A0009AFFDC /* UI Customization */ = {
 			isa = PBXGroup;
 			children = (
-				5CB827C62413297200E5890F /* MailView.swift */,
+				5CB827C62413297200E5890F /* AimsMailView.swift */,
 				5CDF996E23C2E53A00F33CF9 /* CheckView.swift */,
 				5C362C8A23B8F87C003E543E /* FloatingMenu.swift */,
 				5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */,
@@ -297,7 +300,7 @@
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
 				5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */,
 				5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */,
-				5CB827C72413297200E5890F /* MailView.swift in Sources */,
+				5CB827C72413297200E5890F /* AimsMailView.swift in Sources */,
 				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,
 				5CD6DED623E21938008E0F77 /* Aims_qual_row.swift in Sources */,
@@ -307,6 +310,7 @@
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
 				5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */,
+				5C12F2B3241353E30078F17E /* aims_shared_result.swift in Sources */,
 				5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */,
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,

@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct Aims_qual_row: View {
-    
+    @EnvironmentObject var scores: Scale_scores
     let aims_q_qual = Bundle.main.decode([Aims_qual_questions].self, from: "aims_10-13.json")
     
     
@@ -19,19 +19,23 @@ struct Aims_qual_row: View {
     @State private var q13: Bool = false
     @State private var def: Bool = false
     
-    private var all_qual: [Bool] { [q10, q11, q12, q13] }
     
-    
+    var all_qual: [Bool] { [q10, q11, q12, q13] }
+  
     func toggle(ans: Int) {
         switch ans {
         case 0:
             q10 = !q10
+            self.scores.aims_qual_array[0] = q10
         case 1:
             q11 = !q11
+            self.scores.aims_qual_array[1] = q11
         case 2:
             q12 = !q12
+            self.scores.aims_qual_array[2] = q12
         case 3:
             q13 = !q13
+            self.scores.aims_qual_array[3] = q13
         default:
             def = true
             

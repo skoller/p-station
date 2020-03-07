@@ -12,9 +12,12 @@ import MessageUI
 
 struct Aims: View {
     @EnvironmentObject var scores: Scale_scores
+//    @EnvironmentObject var settings: UserSettings
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     @State var alertNoMail = false
+    
+    
     
     var body: some View {
         
@@ -29,8 +32,9 @@ struct Aims: View {
                     Text("Email Result")
                 }
                 .onTapGesture {MFMailComposeViewController.canSendMail() ? self.isShowingMailView.toggle() : self.alertNoMail.toggle()}
-                .sheet(isPresented: $isShowingMailView) {MailView(result: self.$result) }
-                .alert(isPresented: self.$alertNoMail) {Alert(title: Text("NO MAIL SETUP"))}
+            .sheet(isPresented: $isShowingMailView) {AimsMailView(result: self.$result).environmentObject(self.scores)}
+                .alert(isPresented: self.$alertNoMail) {Alert(title: Text("NO MAIL APPLICATION CURRENTLY SETUP"))}
+
             
             
             Divider()
@@ -64,4 +68,7 @@ struct Aims_Previews: PreviewProvider {
         Aims().environmentObject(Scale_scores())
     }
 }
+
+
+
 
