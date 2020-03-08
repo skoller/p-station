@@ -84,7 +84,7 @@ struct Mdq: View {
             Text("Total Score: \(score())")
             Divider()
             
-            List {
+            ScrollView {
                 ForEach(mdq_q) { i in
                     HStack {
                         Text(i.q).padding(20)
@@ -106,7 +106,12 @@ struct Mdq: View {
                             Text(self.question14items[index]).tag(index).font(.subheadline)
                         }
                         }.pickerStyle(WheelPickerStyle()).labelsHidden()
-                    Text("How much of a problem did any of these cause you – like being unable to work; having family, money or legal troubles; getting into arguments or fights?")
+                    Text("""
+How much of a problem did any of these cause
+you – like being unable to work; having family,
+money or legal troubles; getting into arguments
+or fights?
+""")
                 }.padding().addBorder(Color.gray, width: 2, cornerRadius: 10).padding(5)
             }.navigationBarTitle("Mood Disorder Questionnaire", displayMode: .inline)
         }

@@ -69,7 +69,7 @@ struct Phq9: View {
                     
                 }.modifier(DismissingKeyboard())
                 
-                List {
+                ScrollView {
                     Phq9_row()
                     Phq9_row_finalQual()
                 }

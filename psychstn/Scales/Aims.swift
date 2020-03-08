@@ -16,9 +16,6 @@ struct Aims: View {
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
     @State var alertNoMail = false
-//    @State var pt_id: String = ""
-    
-//    @State private var showModal = false
     
     
     
@@ -32,9 +29,6 @@ struct Aims: View {
 
 VStack{
             HStack {
-//                    TextField("Patient ID", text: $pt_id)
-//                    .textFieldStyle(RoundedBorderTextFieldStyle())
-//                        .fixedSize().frame(width: 100, height: 35)
                     Button(action: { self.isShowingMailView.toggle()}) {
                         Text("Email Result")
                         Image(systemName: "paperplane").imageScale(.large)
@@ -58,7 +52,7 @@ VStack{
     
        }.modifier(DismissingKeyboard())
          
-            List {
+            ScrollView {
                 Aims_quant_row()
                 Aims_qual_row()
             }

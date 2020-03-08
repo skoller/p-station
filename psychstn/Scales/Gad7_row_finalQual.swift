@@ -47,7 +47,7 @@ struct Gad7_row_finalQual: View {
 
 struct Gad7_row_finalQual_Previews: PreviewProvider {
     static var previews: some View {
-        Phq9_row_finalQual()
+        Gad7_row_finalQual()
     }
 }
 

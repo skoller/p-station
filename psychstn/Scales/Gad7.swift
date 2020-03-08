@@ -68,7 +68,7 @@ struct Gad7: View {
                     
                 }.modifier(DismissingKeyboard())
                 
-                List {
+               ScrollView {
                     Gad7_row()
                     Gad7_row_finalQual()
                 }
