@@ -1,0 +1,48 @@
+[
+    {
+        "id": 0,
+        "q": "Little interest or pleasure in doing things"
+
+    },
+    {
+        "id": 1,
+        "q": "Feeling down, depressed, or hopeless"
+
+    },
+    {
+        "id": 2,
+        "q": "Trouble falling or staying asleep, or sleeping too much"
+        
+    },
+    {
+         "id": 3,
+         "q": "Feeling tired or having little energy"
+
+    },
+    {
+         "id": 4,
+         "q": "Poor appetite or overeating"
+           
+    },
+    {
+         "id": 5,
+         "q": "Feeling bad about yourself or that you are a failure or have let yourself or your family down"
+           
+    },
+    {
+         "id": 6,
+         "q": "Trouble concentrating on things, such as reading the newspaper or watching television"
+
+    },
+    {
+         "id": 7,
+         "q": "Moving or speaking so slowly that other people could have noticed. Or the opposite being so figety or restless that you have been moving around a lot more than usual"
+           
+    },
+    {
+         "id": 8,
+         "q": "Thoughts that you would be better off dead, or of hurting yourself"
+           
+    }
+]
+

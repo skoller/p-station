@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */; };
 		5C20E1B124144A8800AF18FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B024144A8800AF18FE /* SettingsView.swift */; };
+		5C20E1B324145A5400AF18FE /* Phq9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B224145A5400AF18FE /* Phq9.swift */; };
+		5C20E1B524145A7800AF18FE /* Phq9_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B424145A7800AF18FE /* Phq9_row.swift */; };
+		5C20E1B724145B5B00AF18FE /* phq9.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C20E1B624145B5B00AF18FE /* phq9.json */; };
+		5C20E1B924145D0400AF18FE /* Phq9MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B824145D0400AF18FE /* Phq9MailView.swift */; };
+		5C20E1BB24145F1800AF18FE /* Phq9_row_finalQual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1BA24145F1800AF18FE /* Phq9_row_finalQual.swift */; };
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
@@ -51,6 +56,11 @@
 /* Begin PBXFileReference section */
 		5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DismissingKeyboard.swift; path = psychstn/DismissingKeyboard.swift; sourceTree = SOURCE_ROOT; };
 		5C20E1B024144A8800AF18FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Tools/SettingsView.swift; sourceTree = "<group>"; };
+		5C20E1B224145A5400AF18FE /* Phq9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phq9.swift; sourceTree = "<group>"; };
+		5C20E1B424145A7800AF18FE /* Phq9_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phq9_row.swift; sourceTree = "<group>"; };
+		5C20E1B624145B5B00AF18FE /* phq9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = phq9.json; sourceTree = "<group>"; };
+		5C20E1B824145D0400AF18FE /* Phq9MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phq9MailView.swift; sourceTree = "<group>"; };
+		5C20E1BA24145F1800AF18FE /* Phq9_row_finalQual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phq9_row_finalQual.swift; sourceTree = "<group>"; };
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
@@ -127,6 +137,7 @@
 		5C5A014223C3A9D700ACC894 /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				5C20E1B624145B5B00AF18FE /* phq9.json */,
 				5C47816F23F226DD008F2CF4 /* asrs.json */,
 				5CD6DED123E20AB7008E0F77 /* aims_0-9.json */,
 				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
@@ -143,6 +154,9 @@
 		5C7E2FFA23BE71B9005AB2DB /* Scales */ = {
 			isa = PBXGroup;
 			children = (
+				5C20E1B224145A5400AF18FE /* Phq9.swift */,
+				5C20E1B424145A7800AF18FE /* Phq9_row.swift */,
+				5C20E1BA24145F1800AF18FE /* Phq9_row_finalQual.swift */,
 				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
 				5C8351DF2414006E00C7557D /* ModalView.swift */,
@@ -157,6 +171,7 @@
 		5C9060C223DA81A0009AFFDC /* UI Customization */ = {
 			isa = PBXGroup;
 			children = (
+				5C20E1B824145D0400AF18FE /* Phq9MailView.swift */,
 				5CB827C62413297200E5890F /* AimsMailView.swift */,
 				5CDF996E23C2E53A00F33CF9 /* CheckView.swift */,
 				5C362C8A23B8F87C003E543E /* FloatingMenu.swift */,
@@ -278,6 +293,7 @@
 				5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */,
 				5CA52A6023D958DE0028AD56 /* mdq.json in Resources */,
 				5CD6DED223E20AB7008E0F77 /* aims_0-9.json in Resources */,
+				5C20E1B724145B5B00AF18FE /* phq9.json in Resources */,
 				5CB43EFA23DBF6F0001E35CA /* draft_dsm.json in Resources */,
 				5CDAA91423A831A300B4CEFF /* Preview Assets.xcassets in Resources */,
 				5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */,
@@ -293,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */,
+				5C20E1B524145A7800AF18FE /* Phq9_row.swift in Sources */,
 				5CD6DED023E20786008E0F77 /* Aims.swift in Sources */,
 				5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */,
 				5CDF996F23C2E53A00F33CF9 /* CheckView.swift in Sources */,
@@ -304,6 +321,7 @@
 				5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */,
 				5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */,
 				5CB827C72413297200E5890F /* AimsMailView.swift in Sources */,
+				5C20E1B924145D0400AF18FE /* Phq9MailView.swift in Sources */,
 				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,
 				5CD6DED623E21938008E0F77 /* Aims_qual_row.swift in Sources */,
@@ -311,6 +329,7 @@
 				5CDAA90F23A831A200B4CEFF /* TabsView.swift in Sources */,
 				5CFB856323C411020075DA6E /* DSMVview.swift in Sources */,
 				5C20E1B124144A8800AF18FE /* SettingsView.swift in Sources */,
+				5C20E1B324145A5400AF18FE /* Phq9.swift in Sources */,
 				5C8351E02414006E00C7557D /* ModalView.swift in Sources */,
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
@@ -319,6 +338,7 @@
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
 				5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */,
+				5C20E1BB24145F1800AF18FE /* Phq9_row_finalQual.swift in Sources */,
 				5CF3660023E660420065BF73 /* Mdq.swift in Sources */,
 				5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */,
 			);
