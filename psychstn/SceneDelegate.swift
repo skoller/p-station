@@ -24,6 +24,8 @@ class Scale_scores: ObservableObject {
     @Published var asrs_array = [0,0,0,0,0,0]
     @Published var phq9_array = [0,0,0,0,0,0,0,0,0]
     @Published var phq9_q10 = ""
+    @Published var gad7_array = [0,0,0,0,0,0,0]
+    @Published var gad7_q8 = ""
 }
 
 

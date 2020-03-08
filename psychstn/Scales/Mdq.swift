@@ -99,14 +99,15 @@ struct Mdq: View {
                 }.padding().addBorder(Color.gray, width: 2, cornerRadius: 10).padding(5)
                 
                 VStack {
-                    Text(" How much of a problem did any of these cause you – like being unable to work; having family, money or legal troubles; getting into arguments or fights?")
+                    
                     
                     Picker(selection: self.$question14, label: Text("Severity")) {
                         ForEach(0..<self.question14items.count) { index in
                             Text(self.question14items[index]).tag(index).font(.subheadline)
                         }
-                    }.pickerStyle(SegmentedPickerStyle())
-                }
+                        }.pickerStyle(WheelPickerStyle()).labelsHidden()
+                    Text("How much of a problem did any of these cause you – like being unable to work; having family, money or legal troubles; getting into arguments or fights?")
+                }.padding().addBorder(Color.gray, width: 2, cornerRadius: 10).padding(5)
             }.navigationBarTitle("Mood Disorder Questionnaire", displayMode: .inline)
         }
     }

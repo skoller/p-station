@@ -18,7 +18,7 @@ struct Scales: View {
                 NavigationLink("ASRS", destination: Asrs())
 //                NavigationLink("BFCRS", destination: Bfcrs())
                 NavigationLink("PHQ-9", destination: Phq9())
-//                NavigationLink("GAD-7", destination: Gad7())
+                NavigationLink("GAD-7", destination: Gad7())
             }.navigationBarTitle("Scales").font(.subheadline)
                 
         
