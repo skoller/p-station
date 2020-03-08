@@ -48,7 +48,6 @@ struct Asrs_row: View {
                         if num > 19 {
                             VStack {
                                 Picker(selection: self.$scores.aims_array[pair], label: Text("Severity")) {
-//                                    ForEach(self.severity_descr, id: \.self) {y in Text("\(self.severity_descr[y])"}
                                     ForEach(0...4, id: \.self) {y in
                                         Text(String(y))
                                     }

@@ -17,16 +17,20 @@ struct Phq9: View {
        @State private var result: Result<MFMailComposeResult, Error>? = nil
        @State private var isShowingMailView = false
        @State private var alertNoMail = false
+       @State private var def: Bool = false
+    
+    
+    
     
     
     var body: some View {
-        VStack {
+        
+    VStack{
+                Divider()
+                Text("Total Score: \(self.scores.phq9_array.reduce(0, +))").font(.headline).bold()
+                Text(" \(screen_result(ans: self.scores.phq9_array.reduce(0, +)))").font(.body).bold().foregroundColor(Color.green)
             
-            Divider()
-            
-            Text("Total Score: \(self.scores.phq9_array.reduce(0, +))").font(.body).bold()
-            
-            VStack{
+            VStack {
                 HStack {
                  
                     Button(action: { self.isShowingMailView.toggle()}) {
@@ -45,11 +49,11 @@ struct Phq9: View {
                 
                 Divider()
                 VStack(alignment: .leading) {
-                Text("Question Key:").font(.caption)
-                Text("0 = Not At All").font(.caption)
-                Text("1 = Several Days").font(.caption)
-                Text("2 = More than Half the Days").font(.caption)
-                Text("3 = Nearly Every Day").font(.caption)
+                Text("Question Key:").font(.footnote)
+                Text("0 = Not At All").font(.footnote)
+                Text("1 = Several Days").font(.footnote)
+                Text("2 = More than Half the Days").font(.footnote)
+                Text("3 = Nearly Every Day").font(.footnote)
                 }
                 
                 Divider()
@@ -60,11 +64,72 @@ struct Phq9: View {
               Phq9_row()
               Phq9_row_finalQual()
             }
-            
-            
         }
         .navigationBarTitle("PHQ9", displayMode: .inline)
         
+    }
+}
+
+func screen_result(ans: Int) -> String {
+    switch ans {
+    case 0:
+        return ""
+    case 1:
+        return "Minimal Depression"
+    case 2:
+        return "Minimal Depression"
+    case 3:
+        return "Minimal Depression"
+    case 4:
+        return "Minimal Depression"
+    case 5:
+        return "Mild Depression"
+    case 6:
+       return "Mild Depression"
+    case 7:
+        return "Mild Depression"
+    case 8:
+        return "Mild Depression"
+    case 9:
+        return "Mild Depression"
+    case 10:
+        return "Moderate Depression"
+    case 11:
+        return "Moderate Depression"
+    case 12:
+        return "Moderate Depression"
+    case 13:
+        return "Moderate Depression"
+    case 14:
+        return "Moderate Depression"
+    case 15:
+        return "Moderately Severe Depression"
+    case 16:
+        return "Moderately Severe Depression"
+    case 17:
+        return "Moderately Severe Depression"
+    case 18:
+        return "Moderately Severe Depression"
+    case 19:
+        return "Moderately Severe Depression"
+    case 20:
+        return "Severe Depression"
+    case 21:
+        return "Severe Depression"
+    case 22:
+        return "Severe Depression"
+    case 23:
+        return "Severe Depression"
+    case 24:
+        return "Severe Depression"
+    case 25:
+        return "Severe Depression"
+    case 26:
+        return "Severe Depression"
+    case 27:
+        return "Severe Depression"
+    default:
+        return "Error"
     }
 }
 
