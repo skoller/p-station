@@ -9,6 +9,8 @@
 import UIKit
 import SwiftUI
 import Foundation
+import PencilKit
+
 
 class UserSettings: ObservableObject {
     @Published var favorites = []
@@ -26,6 +28,7 @@ class Scale_scores: ObservableObject {
     @Published var phq9_q10 = ""
     @Published var gad7_array = [0,0,0,0,0,0,0]
     @Published var gad7_q8 = ""
+    @Published var bfcrs_array = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 }
 
 
@@ -35,14 +38,28 @@ extension View {
     }
 }
 
+extension PKCanvasView{
+    override open func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        return DragOrDraw.disableDrawing
+    }
+}
+
+class DragOrDraw{
+    static var disableDrawing = true
+}
+//
+//struct Constants {
+//    static let dsm = Bundle.main.decode([DsmCategory].self, from: "dsm.json")
+//}
 
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    
     var settings = UserSettings()
     var scores = Scale_scores()
+  
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.

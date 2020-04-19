@@ -94,7 +94,7 @@ struct Gad7MailView: UIViewControllerRepresentable {
                         <tr><td> \(self.scores.gad7_array[6]) </td><td>Feeling afraid as if something awful might
                         happen</td></tr>
                         
-            <tr><td> </td><td>If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?</td></tr>
+            <tr><td>  \(self.scores.gad7_q8) </td><td>If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?</td></tr>
                         
                     </table>
                 </body>

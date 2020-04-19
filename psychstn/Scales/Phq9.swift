@@ -55,14 +55,14 @@ struct Phq9: View {
                     
                     Divider()
                     HStack {
-                         Text("Question Key: ").font(.body)
-                    VStack(alignment: .leading) {
-                       
-                        Text("0 = Not At All").font(.body)
-                        Text("1 = Several Days").font(.body)
-                        Text("2 = More than Half the Days").font(.body)
-                        Text("3 = Nearly Every Day").font(.body)
-                    }
+                        Text("Question Key: ").font(.body)
+                        VStack(alignment: .leading) {
+                           
+                            Text("0 = Not At All").font(.body)
+                            Text("1 = Several Days").font(.body)
+                            Text("2 = More than Half the Days").font(.body)
+                            Text("3 = Nearly Every Day").font(.body)
+                        }
                     }
                     
                     Divider()

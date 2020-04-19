@@ -8,8 +8,11 @@
 
 import SwiftUI
 
+
+let dsm = Bundle.main.decode([DsmCategory].self, from: "dsm.json")
+
 struct DSMVview: View {
-    let dsm = Bundle.main.decode([DsmCategory].self, from: "dsm.json")
+    
     var body: some View {
         NavigationView {
             List {
@@ -17,10 +20,15 @@ struct DSMVview: View {
                     Section(header: Text(group.category).fontWeight(.bold)
                     .font(.title)) {
                         ForEach(group.disorders) { dx in
-                            Text(dx.name)
-                            .fontWeight(.thin)
-                            .font(.body)
-                        }
+                            HStack {
+                                NavigationLink(destination: DSM_Dx(dx: dx.name, cat: group.category, dxdescr: dx.description, crit: dx.criteria))
+                                    { Text(dx.name)
+                                        .fontWeight(.thin)
+                                        .font(.body)
+                                        .foregroundColor(.blue)
+                                    }
+                            }
+                        }.frame(height: 60)
                     }
                 }
             }.navigationBarTitle("DSM 5 Quick Reference", displayMode: .inline)
@@ -28,21 +36,26 @@ struct DSMVview: View {
     }
 }
 
-struct DsmCategory: Codable, Identifiable {
+class DsmCategory: Codable, Identifiable {
     var id: UUID
     var category: String
     var disorders: [DsmDisorder]
 }
 
-struct DsmDisorder: Codable, Identifiable {
+class DsmDisorder: Codable, Identifiable {
     var id: UUID
     var name: String
-//  var description:
+    var description: String
+    var criteria: Array<String>
 }
 
+class DsmCriteria: Codable {}
 
 struct DSMVview_Previews: PreviewProvider {
     static var previews: some View {
         DSMVview()
     }
 }
+
+
+//["1", "2", "3"]

@@ -32,8 +32,6 @@ struct TabsView: View {
     var body: some View {
         
        
-        
-        
         TabView(selection: $selection){
             
             ToolsView()
@@ -41,42 +39,34 @@ struct TabsView: View {
                 .tabItem {
                     HStack {
                         
-                        Image("015-briefcase")
+//                        Image("015-briefcase")
                         Text("Tools")
                     }
             }
             .tag(0)
             
+    
             
-            DSMVview()
+            
+            PatientsView()
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("005-knowledge")
-                        Text("DSM-V")
-                    }
-            }.tag(1)
-            
-            
-            
-            MedicationsView()
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("001-pills")
-                        Text("Meds")
+//                        Image("icons8-crowd-50")
+                        Text("Patients")
                     }
             }
-            .tag(2)
+            .tag(1)
+            
             SettingsView()
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("019-favorite")
-                        Text("Settings")
+//                        Image("icons8-account-50")
+                        Text("Account").fontWeight(.heavy).font(.title)
                     }
             }
-            .tag(3)
+            .tag(2)
         }
         .accentColor(.blue)
         .opacity(1)

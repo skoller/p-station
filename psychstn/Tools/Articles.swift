@@ -10,7 +10,12 @@ import SwiftUI
 
 struct Articles: View {
     var body: some View {
-        Text("this is an article")
+        Group {
+            Text("April 2020")
+            Text("March 2020")
+            Text("Feb 2020")
+            Text("Jan 2020")
+        }
     }
 }
 

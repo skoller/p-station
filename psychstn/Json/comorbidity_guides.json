@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 0,
+        "title": "Renal Impairment",
+        "content" : ""
+    },
+    {
+        "id" : 1,
+        "title": "Hepatic Impairment",
+        "content" : ""
+    },
+    {
+        "id" : 2,
+        "title": "HIV",
+        "content" : ""
+    },
+    {
+        "id" : 3,
+        "title": "Seizure Disorder",
+        "content" : ""
+    },
+    {
+        "id" : 4,
+        "title": "Arrythmias",
+        "content" : ""
+    },
+    {
+        "id" : 5,
+        "title": "Anticoagulation",
+        "content" : ""
+    },
+    {
+        "id" : 6,
+        "title": "Autoimmune Disease",
+        "content" : ""
+    },
+    {
+        "id" : 7,
+        "title": "Chronic Lung Disease",
+        "content" : ""
+    },
+    {
+        "id" : 8,
+        "title": "Diabetes I/II",
+        "content" : ""
+    },
+    {
+        "id" : 9,
+        "title": "Heart Failure",
+        "content" : ""
+    },
+    {
+        "id" : 10,
+        "title":  "GERD/Peptic Ulcer Disease",
+        "content" : ""
+    }
+]

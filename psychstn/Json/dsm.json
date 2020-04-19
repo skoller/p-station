@@ -5,107 +5,129 @@
         {
             "id": "aa3ea802-775f-4431-a245-f98dde9f0350",
             "name": "Intellectual Disability",
-            "description": {}
+            "description": "the description",
+            "criteria": ["1", "2", "3amp"]
+           
         },
         {
             "id": "b9d08006-c937-452d-9e22-882ba0aa09c1",
             "name": "Global Developmental Delay",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4069513f-a081-46cd-9d0a-8b1851b3b3fb",
             "name": "Unspecified Intellectual Disability",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "30a261da-9c71-4670-97a4-089de39c1b2d",
             "name": "Language Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e09d7b56-742d-4452-9ced-bcbe58498bab",
             "name": "Speech Sound Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dd55fbe6-a847-4db0-aa16-db15ab8dfc05",
             "name": "Childhood-Onset Fluency Disorder (Stuttering)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "49cb1875-28da-4941-938b-45b07d3e8cc5",
             "name": "Social (Pragmatic) Communication Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a863cf74-4746-454a-a09f-005b3c6df187",
             "name": "Uspecified Communication Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "634623f0-cb12-4966-a64f-83be1e10e2fd",
             "name": "Attention-Deficit/Hyperactivity Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4aad2178-120a-4c34-a9f5-34e3faa52a1e",
             "name": "Other Specified Attention-Deficit/Hyperactivity Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e6674447-32be-4478-9edb-e986544ed1be",
             "name": "Unspecified Attention-Deficit/Hyperactivity Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "affbb18e-e466-4ce0-ad19-97bfcc552652",
             "name": "Specific Learning Disorder",
-            "description": {}
+            "description": "the description",
+            "criteria": ["1", "2", "3"]
         },
         {
             "id": "a3ff22d8-6497-4eec-9e88-e0cbce144b9c",
             "name": "Developmental Coordination Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "8ede730c-4bb9-4e04-9d79-ac3014293323",
             "name": "Stereotypic Movement Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a220a50d-4ec7-4d98-a98f-26e2514aa13c",
             "name": "Tic Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "38eab0fe-d8d1-4564-aef5-994061af7caf",
             "name": "Tourette’s Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5b5c38fe-58cd-4021-8ab0-5d8489fd17c2",
             "name": "Persistent (Chronic) Motor or Vocal Tic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0903fd13-646d-4ea7-8e8f-4a4bff1ecf67",
             "name": "Provisional Tic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "fa562f42-3ef6-4cb8-a428-2da6cd950932",
             "name": "Other Specified Tic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "6968703a-320c-479e-8752-4b1ca3c5450b",
             "name": "Other Specified Neurodevelopmental Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "acab9717-3ab9-4be5-ba57-7ec6220ccf6a",
             "name": "Unspecified Neurodevelopmental Disorder",
-            "description": {}
+            "description": "the description",
+            "criteria": ["1", "2", "3"]
         
         }
     ]
@@ -118,67 +140,80 @@
         {
             "id": "1f97bda3-33ac-4a9d-a518-21bcfae52390",
             "name": "Schizotypal (Personality) Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "3da1bb17-a557-4982-88bd-d2220a883d8f",
             "name": "Delusional Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "58f40cd6-14b9-4237-b0b5-17e0c7d5de63",
             "name": "Brief Psychotic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a85f68ee-f3ba-4d4a-8ed7-658f8f7804a3",
             "name": "Schizophreniform Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "b71e9814-f7fe-450f-b3ae-8fd4933306cb",
             "name": "Schizophrenia",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "729f82ec-8166-4815-b5e7-90a142bb319d",
             "name": "Schizoaffective Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "801747d4-eca0-45c6-97ae-8ea8cedcba6d",
             "name": "Substance/Medication-Induced Psychotic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "86599e28-ddfb-4f86-89c1-adbd91f41258",
             "name": "Psychotic Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a1cab2af-0b69-4464-afd3-4b86c2f37bc6",
             "name": "Other Specified Schizophrenia Spectrum and Other Psychotic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ab27c597-8abf-41bb-b6d4-357a0aa6adcd",
             "name": "Unspecified Schizophrenia Spectrum and Other Psychotic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "03675964-09f2-403c-be66-500ee442971b",
             "name": "Catatonia Associated With Another Mental Disorder (Catatonia Specifier)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "29307401-fffe-4292-a6be-2530b8f535b0",
             "name": "Catatonic Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a4887aa3-e3b5-44a9-9f17-612e733480d3",
             "name": "Unspecified Catatonia",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -189,37 +224,44 @@
         {
             "id": "58b080c4-cab8-474e-b4fb-22eb369e239b",
             "name": "Bipolar I Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "61135022-179f-4c79-a031-6e604a3bad2a",
             "name": "Bipolar II Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "77be4070-a4cc-4b68-abc2-2d0eeec4f28d",
             "name": "Cyclothymic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "112e2d61-8795-49cb-983e-92a7bcd9152c",
             "name": "Substance/Medication-Induced Bipolar and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e64b4a38-2ea4-4b15-97ad-12ae644dfe79",
             "name": "Bipolar and Related Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d4d5fdf6-08cf-4b9b-a2f2-bedf8316fbe8",
             "name": "Other Specified Bipolar and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ac38c18f-cad3-4921-aca7-312a8a2a845e",
             "name": "Unspecified Bipolar and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -230,42 +272,50 @@
         {
             "id": "a2c47637-6844-4bc5-a2c3-6e89a05a0b9f",
             "name": "Disruptive Mood Dysregulation Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4ee95d62-e5eb-42c1-9485-0a1bbe4534ac",
             "name": "Major Depressive Disorder, Single and Recurrent Episodes",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "509f2785-2935-4fde-87a7-2eb199c100ff",
             "name": "Persistent Depressive Disorder (Dysthymia)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f7a32b5e-bc07-4b60-b582-b53570557092",
             "name": "Premenstrual Dysphoric Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "addfeff0-77d7-480b-96a4-1e7cd7017e15",
             "name": "Substance/Medication-Induced Depressive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "01efa97f-89fb-4dc2-9e0f-af5764cf44a6",
             "name": "Depressive Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "760b40f7-9e66-4062-9d3f-b8ebb6f85e86",
             "name": "Other Specified Depressive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "185d7307-f23c-4e3e-a252-7c17f5d61b29",
             "name": "Unspecified Depressive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -276,62 +326,74 @@
         {
             "id": "3aa79b9e-4574-4ede-a069-a145f2de859a",
             "name": "Separation Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "c555e47a-4e20-4cc6-8478-1268e2a77ff6",
             "name": "Selective Mutism",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0ae316d5-cbdb-464b-8b9f-34d04b6faae5",
             "name": "Specific Phobia",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2c56faed-7fc0-4867-ae53-b9dd555dfc24",
             "name": "Social Anxiety Disorder (Social Phobia)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a1a4451d-618d-445a-bee0-7eca2516caf0",
             "name": "Panic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f661440d-536e-4728-856a-780aa333cf5a",
             "name": "Panic Attack (Specifier)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "aaf4956f-e6c0-423d-8964-8cd36df2fb45",
             "name": "Agoraphobia",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "94fcddf8-50e4-4076-a234-7ffa48396c7b",
             "name": "Generalized Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7fbae7da-c3c5-4ee2-8c1f-e6dd7b21594e",
             "name": "Substance/Medication-Induced Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ce2f0e86-2f9d-4481-948f-dabd90d4721b",
             "name": "Anxiety Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ed3cd0c2-3054-4b02-93d8-5eae093556eb",
             "name": "Other Specified Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5af9e9b4-f23d-4ed0-960e-dfbd708b8545",
             "name": "Unspecified Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -342,47 +404,56 @@
         {
             "id": "d3ae1235-762a-4884-8906-edddf0bc4949",
             "name": "Obsessive-Compulsive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "76047143-e7df-43c8-a0b1-480743158440",
             "name": "Body Dysmorphic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7ce1d04e-03e5-437e-b718-6fa61ae6b31b",
             "name": "Hoarding Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "8e5b49ed-e186-449c-80e6-8c7514d6960d",
             "name": "Trichotillomania (Hair-Pulling Disorder)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "619f9388-17dc-4d3b-a04f-8c5ea4467ec8",
             "name": "Excoriation (Skin-Picking) Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "9251c73a-6888-41c4-bc59-f76ac3aba8cf",
             "name": "Substance/Medication-Induced Obsessive-Compulsive and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "3260b4f4-da5c-4ee0-b4e4-6c5d9e8dcf2d",
             "name": "Obsessive-Compulsive and Related Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0aa0a82c-42fb-4bcb-a7e6-0f5884b2324e",
             "name": "Other Specified Obsessive-Compulsive and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ee449d4e-0465-410f-8d30-d42884a0d17b",
             "name": "Unspecified Obsessive-Compulsive and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -393,37 +464,44 @@
         {
             "id": "3fb215c0-2a6c-402e-9876-951728d15306",
             "name": "Reactive Attachment Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f4fca3a6-78b5-4a54-9489-e6090f5532bb",
             "name": "Disinhibited Social Engagement Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7952b381-0d18-45b5-8fb2-952617b95c7a",
             "name": "Posttraumatic Stress Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4f8c0fad-6394-4c1c-b80b-f00e2f4f038d",
             "name": "Acute Stress Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "36e567fc-2c39-48f6-8202-bed68c78e8c0",
             "name": "Adjustment Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "1de46108-b56f-4e51-84f0-13f8c5b667f7",
             "name": "Other Specified Trauma- and Stressor-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "91bd2e47-1d45-4eaf-bd40-6250004c3ce8",
             "name": "Unspecified Trauma- and Stressor-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -434,27 +512,32 @@
         {
             "id": "2e7e4e2e-19d6-400a-a0df-dcbc61459136",
             "name": "Dissociative Identity Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e195b1fe-715b-4b2a-b414-8df053a36542",
             "name": "Dissociative Amnesia",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "b6250356-8031-4140-9f1c-f345132e9e5a",
             "name": "Depersonalization/Derealization Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4d1463fd-9b47-47f4-8f7d-9cff0279fe0b",
             "name": "Other Specified Dissociative Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2526d22e-3d80-4773-bced-915b330dd825",
             "name": "Unspecified Dissociative Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -465,38 +548,45 @@
         {
             "id": "7bbeb0c7-6399-4f29-b827-92153b8441cb",
             "name": "Somatic Symptom Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4401c612-0ec0-46f8-a235-46cee3406641",
             "name": "Illness Anxiety Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "94bdc9d3-20f0-421a-b701-52ad8b51c67f",
             "name": "Conversion Disorder (Functional Neurological Symptom Disorder)",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a6ff7ae0-350a-4416-ae64-4f88faf06be4",
             "name": "Psychological Factors Affecting Other Medical Conditions",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "23bdd3c9-90df-4057-ad78-e7eb19e4609f",
             "name": "Factitious Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2d8795e4-200c-4a96-b052-ffaff2aacb0c",
             "name": "Other Specified Somatic Symptom and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         
         {
             "id": "26dbe371-62a2-483c-b6d7-9eaa627fc714",
             "name": "Unspecified Somatic Symptom and Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -507,42 +597,50 @@
         {
             "id": "2b42135d-3c8d-4806-97fb-9ba1ee93ecc1",
             "name": "Pica",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dec0a980-87c7-4076-b480-fae298c1a84f",
             "name": "Rumination Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "6ef20004-9380-49f7-afd0-edc62895bb8f",
             "name": "Avoidant/Restrictive Food Intake Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0d77f495-6d09-4dcb-a947-adf2c292d19d",
             "name": "Anorexia Nervosa",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7f01f905-8bc3-4c53-bb00-69c5a0e09019",
             "name": "Bulimia Nervosa",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ebbd5dca-ca50-4564-9b40-e356cc4ffa1a",
             "name": "Binge-Eating Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f4d31a0b-36d8-4e01-9fa6-5f72f4e89af5",
             "name": "Other Specified Feeding or Eating Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "3d859f3d-14d5-43b7-bf15-ce2db7e95704",
             "name": "Unspecified Feeding or Eating Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -553,22 +651,26 @@
         {
             "id": "f2ff2737-76a2-40de-9164-66ce107f6b97",
             "name": "Enuresis",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "712be249-d022-42d4-a464-30e828e61e6b",
             "name": "Encopresis",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a50961d8-c9d9-4d90-af96-39116956ff42",
             "name": "Other Specified Elimination Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "16d8068a-3a04-4f76-bda8-f74e6779b943",
             "name": "Unspecified Elimination Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -579,97 +681,116 @@
         {
             "id": "5865bec3-6ad6-4cbc-88ee-75c2b88c1209",
             "name": "Enuresis",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e0a69e1d-0797-49af-96ef-e7cadd777198",
             "name": "Insomnia Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "28bac072-a86a-4bc2-97bf-f17f513bfb00",
             "name": "Hypersomnolence Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "430a84b5-0aac-401e-b222-b8b0dae7bc91",
             "name": "Narcolepsy",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2b684c8a-16ad-4e2c-a145-0197081389bf",
             "name": "Obstructive Sleep Apnea Hypopnea",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "24da4db1-2ff7-4219-9416-53c21a5cd9de",
             "name": "Central Sleep Apnea",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d23f3501-170b-4a4b-b036-0e9b95487478",
             "name": "Sleep-Related Hypoventilation",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f9828cbd-cd92-4b2a-afbe-662c5ab66e26",
             "name": "Circadian Rhythm Sleep-Wake Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "8d96a8fe-98a0-4fd4-860d-ed472f45c0d1",
             "name": "Non–Rapid Eye Movement Sleep Arousal Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2a3e7439-2887-43d5-99a5-0ed99a677336",
             "name": "Nightmare Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ec9f671a-3cb2-4f00-9a87-a2f59689c829",
             "name": "Rapid Eye Movement Sleep Behavior Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ef6f7587-f2ef-4c70-a6e7-f31a5862dae3",
             "name": "Restless Legs Syndrome",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "9bdd81f1-e085-4cea-89a0-bc64718eeb15",
             "name": "Substance/Medication-Induced Sleep Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4837e3bf-08ee-4da1-af60-342fb7adafa1",
             "name": "Other Specified Insomnia Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "90cddf07-5442-40ec-8fc4-16dd35562629",
             "name": "Unspecified Insomnia Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4bbbae1c-ce03-46a3-bc5b-5e8c77cbe3d3",
             "name": "Other Specified Hypersomnolence Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "c681e459-e02d-449b-bee1-f9a1df8d26a4",
             "name": "Unspecified Hypersomnolence Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "25ebd031-c563-4c8d-b2cf-c0358f778ac2",
             "name": "Other Specified Sleep-Wake Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "64929cdf-9b09-4e98-a9de-9b02615a9f85",
             "name": "Unspecified Sleep-Wake Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -680,52 +801,62 @@
         {
             "id": "af75e144-1440-4ef6-a634-32473c6ed6ec",
             "name": "Delayed Ejaculation",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0c1fab12-d9f9-42b2-92e9-845137993778",
             "name": "Erectile Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "24dde7a1-887c-4fad-a700-ee9028ffd6a1",
             "name": "Female Orgasmic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ac8bd52c-6780-41a5-b6de-f2e946a70a93",
             "name": "Female Sexual Interest/Arousal Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "42fd88e7-5c58-4830-86fc-c5c04fbb2201",
             "name": "Genito-Pelvic Pain/Penetration Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5038d81a-acf9-4be6-9f27-2fff2e37edfc",
             "name": "Male Hypoactive Sexual Desire Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5beeab73-323d-4801-8847-6ea2ea068367",
             "name": "Premature (Early) Ejaculation",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dcc2207b-6623-4830-a739-f5653bcc3320",
             "name": "Substance/Medication-Induced Sexual Dysfunction",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "98842b9a-c6f3-4a20-bd33-7d83209c6a09",
             "name": "Other Specified Sexual Dysfunction",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ae73e0b8-7b01-44b4-b818-fd6e423a1474",
             "name": "Unspecified Sexual Dysfunction",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -736,17 +867,20 @@
         {
             "id": "03d9d94a-40d9-4503-81d2-8da2c4c62b5a",
             "name": "Gender Dysphoria",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "fb4911b3-5591-4372-9789-a38257c0e7b6",
             "name": "Other Specified Gender Dysphoria",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5e349853-4ea9-4d72-8422-36ab780616fa",
             "name": "Unspecified Gender Dysphoria",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -757,42 +891,50 @@
         {
             "id": "76a9eac5-0967-4f2b-bf07-56c07aed635d",
             "name": "Oppositional Defiant Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0db4d91e-d1d2-4bac-af56-c554bda14f6a",
             "name": "Intermittent Explosive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "c7fdb5c9-998b-44ba-8d63-9a571b178f93",
             "name": "Conduct Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dcc8e55b-0382-40c0-b2aa-b1852c34e0e4",
             "name": "Antisocial Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4bc8d697-f33b-4df1-ba50-0e27efc686d5",
             "name": "Pyromania",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "9b4fe457-6bca-4dd1-b2b7-72490370489a",
             "name": "Kleptomania",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "185ff3ac-ce08-415b-96ac-842d217c0bea",
             "name": "Other Specified Disruptive, Impulse-Control, and Conduct Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "136939ef-e452-4a33-aaac-a70e3b19be29",
             "name": "Unspecified Disruptive, Impulse-Control, and Conduct Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -803,262 +945,314 @@
         {
             "id": "8bc1e2c6-3c7c-4fa9-abcb-b11f013a74a6",
             "name": "Alcohol Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "930aa842-e0e0-4368-9c2b-4127f147ef06",
             "name": "Alcohol Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dfe997bc-ade0-4157-af63-05427911037a",
             "name": "Alcohol Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "422de52f-19fe-4971-a977-865c6eb50bfa",
             "name": "Other Alcohol-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "b1961c6f-93a4-4fd8-9682-260e184c6777",
             "name": "Unspecified Alcohol-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e79b3991-9158-4eff-b313-803b16ee0eac",
             "name": "Caffeine Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "bd4645ac-d18f-466a-8ca1-f97f7c767538",
             "name": "Caffeine Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5c1b4731-d932-4031-98c5-efb0fc785d31",
             "name": "Other Caffeine-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d899018d-5b59-4a2e-ac7f-14726e437072",
             "name": "Unspecified Caffeine-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "024850e1-15c6-4f56-a944-eb623887cf9b",
             "name": "Cannabis Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "38c7cde4-b59a-4a28-86a1-fcebf6836423",
             "name": "Cannabis Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "dac792c6-feec-4caf-8c4f-53846607abb6",
             "name": "Cannabis Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0caaf9b8-c30d-4b29-a7ce-ab22702ed014",
             "name": "Other Cannabis-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e20b9857-1be5-408c-8229-956c0aa37920",
             "name": "Unspecified Cannabis-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7d830484-2413-4a09-af05-74d286c774b0",
             "name": "Phencyclidine Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "78f33d8d-07e2-441c-9281-ea00de9ae4cd",
             "name": "Other Hallucinogen Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "728c843d-11b4-46e8-acc4-eaf32419d66f",
             "name": "Phencyclidine Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "77bf9486-b549-4b80-9489-a99f6fe43e04",
             "name": "Other Hallucinogen Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "19c19fea-2e65-4564-9ec7-64af948d378a",
             "name": "Hallucinogen Persisting Perception Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "c1674cf5-1d39-47bd-8bc6-da09bec85c35",
             "name": "Other Phencyclidine-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "253877db-0f4f-49cd-859f-9e791ed9de69",
             "name": "Other Hallucinogen-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a25afcd2-11c1-40da-965d-90b14fef8fc9",
             "name": "Unspecified Phencyclidine-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "1a24b352-808c-466d-8878-f6a4654d64b3",
             "name": "Unspecified Hallucinogen-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d7fdde5c-71d4-4452-a57a-be3d287fe2e2",
             "name": "Inhalant Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "48cdea3b-0aaa-4c0f-adfc-3424fe77010d",
             "name": "Inhalant Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "805a9442-3215-4358-b2db-5a470e213bc6",
             "name": "Other Inhalant-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f3def42f-cd77-4992-a9a6-34ad0da6cd70",
             "name": "Unspecified Inhalant-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "cfcd5a18-9d30-4e30-9a6c-2a35f15280dd",
             "name": "Opioid Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e51ee6e4-2941-466b-9ea7-b249165cee32",
             "name": "Opioid Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4e35e6e5-dd5a-4e58-a2a9-2a504d9c75ee",
             "name": "Opioid Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5fa7c93f-625c-4092-8a9f-d0117ebbf3d5",
             "name": "Other Opioid-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "05d219ef-4921-4cb7-bc1d-5c0a2aec311d",
             "name": "Unspecified Opioid-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "958ee7d1-b392-4958-986a-09ac58385f69",
             "name": "Sedative, Hypnotic, or Anxiolytic Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "066d8963-51ee-468a-8b4a-03d6ea379213",
             "name": "Sedative, Hypnotic, or Anxiolytic Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "14c238cf-7bbe-44c6-a21d-a20663dc8a83",
             "name": "Sedative, Hypnotic, or Anxiolytic Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "cbd09801-0284-40b0-ac85-e87cc261e224",
             "name": "Other Sedative-, Hypnotic-, or Anxiolytic-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "985ce591-7b32-402b-9053-6a80b3cae755",
             "name": "Unspecified Sedative-, Hypnotic-, or Anxiolytic-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "16cdd9b9-9f43-488b-b2d3-4b38202ac96d",
             "name": "Stimulant Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "4dc827fb-f808-40b6-aede-7125928d240f",
             "name": "Stimulant Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7f1947a5-e1de-47f9-9be8-d9506f558481",
             "name": "Stimulant Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "3bb5361b-40fc-4481-8e28-11382a822082",
             "name": "Other Stimulant-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "cc5e2e8f-50c9-4441-9a12-e4731f5c755e",
             "name": "Unspecified Stimulant-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "489f0949-a215-4171-9879-b79f14180d99",
             "name": "Tobacco Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "639e97fc-ae64-46bc-92d7-48e5e3361ef4",
             "name": "Tobacco Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "94d70a73-536b-407d-bfe4-e7592094aca5",
             "name": "Other Tobacco-Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "131c3009-d867-4c31-ac39-edf669ec4e07",
             "name": "Unspecified Tobacco-Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "1b802176-627f-4092-87fe-98f95a1f6794",
             "name": "Other (or Unknown) Substance Use Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "fa033949-028a-4107-9db0-a45a676467e5",
             "name": "Other (or Unknown) Substance Intoxication",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "193401ee-363c-4efd-af2a-1650b0948af9",
             "name": "Other (or Unknown) Substance Withdrawal",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "759ecb60-d29b-429a-a32b-eabf2e49cbfd",
             "name": "Other (or Unknown) Substance–Induced Disorders",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "b996c795-3f54-42a1-b6c4-60d168ea2117",
             "name": "Unspecified Other (or Unknown) Substance–Related Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f8b4b8cb-55b1-4ad2-9d9e-3365c11ca1c2",
             "name": "Gambling Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -1069,92 +1263,110 @@
         {
             "id": "da6f1436-39f0-455b-b174-0bd9cedbca2f",
             "name": "Delirium",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "20a44cee-db1b-4f72-b3d2-e8f09ed1aa17",
             "name": "Other Specified Delirium",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "99e26f36-b947-4d1b-99a0-8465bff8fd49",
             "name": "Unspecified Delirium",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "451a279e-eb0e-4ceb-9902-b581284e02e2",
             "name": "Major Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "5f5d55a5-48bc-4d60-8b1d-464d91417222",
             "name": "Mild Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "db87d1cc-569d-49bd-9c7a-f6003ebdc946",
             "name": "Major or Mild Neurocognitive Disorder Due to Alzheimer’s Disease",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e59c2a24-475b-4a25-b01f-57002170850d",
             "name": "Major or Mild Frontotemporal Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "c4e899ee-80e3-49fe-ac85-e66804094815",
             "name": "Major or Mild Neurocognitive Disorder With Lewy Bodies",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "0a9472bd-9eb4-472c-bea5-2d5c2517b556",
             "name": "Major or Mild Vascular Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "777d576a-3d76-4d9a-86f8-978e31ef85e8",
             "name": "Major or Mild Neurocognitive Disorder Due to Traumatic Brain Injury",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "6d9a1cb4-8836-478c-b98e-1473f0829527",
             "name": "Substance/Medication-Induced Major or Mild Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a0a2f9d0-9305-4879-a251-c22a16df6098",
             "name": "Major or Mild Neurocognitive Disorder Due to HIV Infection",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "44ebe547-c676-4ed3-92ee-ac175696c348",
             "name": "Major or Mild Neurocognitive Disorder Due to Prion Disease",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "05403c13-3258-47f9-940c-3351dc67d51f",
             "name": "Major or Mild Neurocognitive Disorder Due to Parkinson’s Disease",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "3ff1e3bd-749c-44b9-8389-acfe3188c353",
             "name": "Major or Mild Neurocognitive Disorder Due to Huntington’s Disease",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ccd0f80f-162c-4ab0-9f8e-46bdabbee1ce",
             "name": "Major or Mild Neurocognitive Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "15b76050-72b1-45a0-945b-bb043ff13ac7",
             "name": "Major or Mild Neurocognitive Disorder Due to Multiple Etiologies",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "03857215-778a-41c2-a8cf-f859c9bb9a04",
             "name": "Unspecified Neurocognitive Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -1165,72 +1377,86 @@
         {
             "id": "c36b5209-0f1f-4a51-b467-759a8b78adbe",
             "name": "General Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "06c55302-b293-475e-89f8-686a5a00507c",
             "name": "Paranoid Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "8fdf1761-d463-4e29-a64f-1d3a7e06feb0",
             "name": "Schizoid Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "732c164a-2025-4a60-9e20-dbed4279c4b9",
             "name": "Schizotypal Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ff287d26-8f4b-42e8-8aab-73766b32741d",
             "name": "Antisocial Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "259e0c85-4d46-4639-815d-c8d240f2b0f4",
             "name": "Borderline Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d7aaf4c5-d64e-436c-8a3f-4280ace55624",
             "name": "Histrionic Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "e313dd8f-6efc-4faa-9246-519e94f77226",
             "name": "Narcissistic Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "7cdf1536-3af0-47b2-8700-84da76610b82",
             "name": "Avoidant Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d0430b19-5fb1-4d11-9aa6-2692e39641e4",
             "name": "Dependent Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "a780fa57-d233-43cd-b34c-44ed464b4d91",
             "name": "Obsessive-Compulsive Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "91dd7678-dbc6-4f52-bb71-936aa6ff4153",
             "name": "Personality Change Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "bda74eb8-3643-4aa9-908b-07c31728bc57",
             "name": "Other Specified Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "eea66215-3d34-4e4e-b364-2b39df9b626d",
             "name": "Unspecified Personality Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -1241,52 +1467,62 @@
         {
             "id": "7cf523f4-2cfd-4632-b111-b95be0ee89fe",
             "name": "Voyeuristic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "60df3323-7661-4f4e-8c17-edd0e4749f27",
             "name": "Exhibitionistic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d9229f8a-dbcd-4d96-9aa2-22ec54ea3568",
             "name": "Frotteuristic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "ebf973cb-1898-480d-ac56-01716c31b263",
             "name": "Sexual Masochism Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "d8440071-faea-4cf3-b235-2c679243fb81",
             "name": "Sexual Sadism Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "56905633-66f4-46ab-9218-c6bb6a5e3333",
             "name": "Pedophilic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "fcfb9837-235c-49fc-a0fa-c70a8479e9d5",
             "name": "Fetishistic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2e15a95b-79e4-4b52-a8a9-d925ae797d39",
             "name": "Transvestic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "f4c4ce4a-0c12-412d-93f2-b0caa633f6a3",
             "name": "Other Specified Paraphilic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "2770c27e-4158-4d0d-bff4-b6756dadcc1f",
             "name": "Unspecified Paraphilic Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
 },
@@ -1297,22 +1533,26 @@
         {
             "id": "1cb536eb-05de-40a6-bd55-076872ad50f6",
             "name": "Other Specified Mental Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "9a51d969-fba9-4248-9ba3-9f1fb4b89cb4",
             "name": "Unspecified Mental Disorder Due to Another Medical Condition",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "6a54841c-1060-4360-83d3-9c96c4f5e61e",
             "name": "Other Specified Mental Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         },
         {
             "id": "44a5a5bf-25dd-4e13-b88a-a449c48c3d2b",
             "name": "Unspecified Mental Disorder",
-            "description": {}
+            "description": "the description",
+             "criteria": ["1", "2", "3"]
         }
     ]
     

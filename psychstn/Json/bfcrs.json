@@ -1,0 +1,117 @@
+[
+    {
+        "id": 0,
+        "q": " Immobility/stupor: Extreme hypoactivity, immobile, minimally responsive to stimuli"
+
+    },
+    {
+        "id": 1,
+        "q": "Mutism: Verbally unresponsive or minimally responsive"
+
+    },
+    {
+        "id": 2,
+        "q": " Staring: Fixed gaze, little or no visual scanning of environment, decreased blinking"
+        
+    },
+    {
+         "id": 3,
+         "q": "Posturing/catalepsy: Spontaneous maintenance of posture (s), including mundane (e.g. sitting or standing for long periods without reacting)"
+
+    },
+    {
+         "id": 4,
+         "q": "Grimacing: Maintenance of odd facial expressions"
+           
+    },
+    {
+         "id": 5,
+         "q": "Echopraxia/echolalia: Mimicking of examiner's movements (echopraxia) or speech (echolalia)"
+           
+    },
+    {
+         "id": 6,
+         "q": "Stereotypy: Repetitive, non-goal-directed motor activity (e.g. finger-play, repeatedly touching, patting or rubbing self); abnormality not inherent in act but in its frequency"
+
+    },
+    {
+        "id": 7,
+        "q": "Mannerisms: Odd, purposeful movements (hopping or walking tiptoe, saluting passers-by or exaggerated caricatures of mundane movements); abnormality inherent in act itself"
+
+    },
+    {
+        "id": 8,
+        "q": "Stereotyped & meaningless repetition of words & phrases (verbigeration): Repetition of phrases or sentences (like a scratched records)"
+
+    },
+    {
+        "id": 9,
+        "q": "Rigidity: Maintenance of a rigid position despite efforts to be moved (exclude if cog-wheeling or tremor present)"
+        
+    },
+    {
+         "id": 10,
+         "q": "Negativism: Apparently motiveless resistance to instructions or attempts to move/examine patients. Contrary behavior, does exact opposite of instruction"
+
+    },
+    {
+         "id": 11,
+         "q": "Waxy flexibility: During repositioning of patient, patient offers initial resistance before allowing him/herself to be repositioned, similar to that of a bending candle. (also defined as slow resistance to movement as the patient allows the examiner to place his/her extremities in unusual positions. The limb may remain in the position in which they are placed or not)"
+           
+    },
+    {
+         "id": 12,
+         "q": "Withdrawal: Refusal to eat, drink and/or make eye contact"
+           
+    },
+    {
+         "id": 13,
+         "q": " Excitement: Extreme hyperactivity, constant motor unrest which is apparently non-purposeful. Not to be attributed to akathisia or goal-directed agitation"
+
+    },
+    {
+        "id": 14,
+        "q": "Impulsivity: Patient suddenly engages in inappropriate behavior (e.g. runs down hallway, starts screaming or takes off clothes) without provocation. Afterwards can give no, or only a facile explanation"
+
+    },
+    {
+        "id": 15,
+        "q": "Automatic obedience: Exaggerated cooperation with examiner's request or spontaneous continuation of movement requested"
+
+    },
+    {
+        "id": 16,
+        "q": "Passive Obedience (mitgehen): Patient raises arm in response to light pressure of finger, despite instructions to the contrary"
+        
+    },
+    {
+         "id": 17,
+         "q": "Muscle Resistance (gegenhalten): Involuntary resistance to passive movement of a limb to a new position. Resistance increases with the speed of the movement"
+
+    },
+    {
+         "id": 18,
+         "q": "Motorically Stuck (ambitendency): Patient appears stuck in indecisive, hesitant motor movements"
+           
+    },
+    {
+         "id": 19,
+         "q": "Grasp reflex: Striking the patient’s open palm with two extended fingers of the examiner’shand results in automatic closure of patients hand"
+           
+    },
+    {
+         "id": 20,
+         "q": "Perseveration: Repeatedly returns to same topic or persists with the same movements"
+
+    },
+    {
+        "id": 21,
+        "q": "Combativeness: Belligerence or aggression, Usually in an undirected manner, without explanation."
+
+    },
+    {
+        "id": 22,
+        "q": "Autonomic abnormality: Abnormality of body temperature (fever), blood pressure, pulse, respiratory rate, inappropriate sweating, flushing."
+
+    }
+]

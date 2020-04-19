@@ -12,7 +12,7 @@ struct Asrs_row: View {
     
     @EnvironmentObject var scores: Scale_scores
 
-    let asrs = Bundle.main.decode([asrs_questions].self, from: "asrs.json")
+    let asrs = Bundle.main.decode([Asrs_questions].self, from: "asrs.json")
 
 
 //    @State private var q0: Int = 0
@@ -28,7 +28,7 @@ struct Asrs_row: View {
 //    @State private var def: Int = 0
 
 //    @State private var severity: [Int] = [0, 1, 2, 3, 4]
-//    var severity_descr: [String] = ["None", "Mininum", "Mild", "Moderate", "Severe"]
+//    var severity: [String] = ["Never", "Rarely", "Sometimes", "Often", "Very Often"]
 
 
     
@@ -47,7 +47,7 @@ struct Asrs_row: View {
                         }
                         if num > 19 {
                             VStack {
-                                Picker(selection: self.$scores.aims_array[pair], label: Text("Severity")) {
+                                Picker(selection: self.$scores.asrs_array[pair], label: Text("Severity")) {
                                     ForEach(0...4, id: \.self) {y in
                                         Text(String(y))
                                     }
@@ -61,18 +61,13 @@ struct Asrs_row: View {
     }
 }
 
+struct Asrs_questions: Codable, Identifiable {
+    var id: Int
+    var q: String
+}
+
 struct Asrs_row_Previews: PreviewProvider {
     static var previews: some View {
         Asrs_row().environmentObject(Scale_scores())
     }
 }
-
-
-
-//    @State var all_quant: [Int] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    
-//    class AimsQuantModel: ObseveableObject {
-//        @Published var all_quant: [Int]
-//
-//        init(all_quant: [Int]) { self.all_quant = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] }
-

@@ -17,9 +17,13 @@
 		5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8623B3FCAA003E543E /* BenzoConversion.swift */; };
 		5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8823B8039C003E543E /* DepakoteDosing.swift */; };
 		5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C362C8A23B8F87C003E543E /* FloatingMenu.swift */; };
+		5C4509BF241E8D380066C912 /* TrailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4509BE241E8D380066C912 /* TrailsView.swift */; };
+		5C4509C3241E9DF00066C912 /* PKCanvasRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4509C2241E9DF00066C912 /* PKCanvasRepresentation.swift */; };
 		5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47816D23F2263D008F2CF4 /* Asrs_row.swift */; };
 		5C47817023F226DD008F2CF4 /* asrs.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C47816F23F226DD008F2CF4 /* asrs.json */; };
 		5C47817223F22A54008F2CF4 /* Asrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47817123F22A54008F2CF4 /* Asrs.swift */; };
+		5C6CDECC24489CA8006C25A8 /* PatientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CDECB24489CA8006C25A8 /* PatientsView.swift */; };
+		5C7114172448DE84006EE934 /* DSM_Dx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7114162448DE84006EE934 /* DSM_Dx.swift */; };
 		5C8351E02414006E00C7557D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8351DF2414006E00C7557D /* ModalView.swift */; };
 		5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9060C323DA81DA009AFFDC /* CustomToggle.swift */; };
 		5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0DAC223AAA40A0063B3AE /* medications.json */; };
@@ -43,9 +47,9 @@
 		5CDAA91423A831A300B4CEFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA91323A831A300B4CEFF /* Preview Assets.xcassets */; };
 		5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDAA91523A831A300B4CEFF /* LaunchScreen.storyboard */; };
 		5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92023A93A3800B4CEFF /* Calculators.swift */; };
-		5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92223A9423600B4CEFF /* QuickReferences.swift */; };
+		5CDAA92323A9423600B4CEFF /* Landmark_Publications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92223A9423600B4CEFF /* Landmark_Publications.swift */; };
 		5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92423A9426100B4CEFF /* Scales.swift */; };
-		5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */; };
+		5CDAA92923A98B3E00B4CEFF /* Comorbidity_Guides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92823A98B3E00B4CEFF /* Comorbidity_Guides.swift */; };
 		5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92A23A98B5400B4CEFF /* Articles.swift */; };
 		5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */; };
 		5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */; };
@@ -54,7 +58,12 @@
 		5CEEEF8E2415AE4200104B8B /* gad7.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CEEEF8D2415AE4200104B8B /* gad7.json */; };
 		5CEEEF902415B1EC00104B8B /* Gad7_row_finalQual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEEF8F2415B1EC00104B8B /* Gad7_row_finalQual.swift */; };
 		5CEEEF922415B40800104B8B /* Bfcrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEEF912415B40800104B8B /* Bfcrs.swift */; };
+		5CEEEF942415B7F500104B8B /* BfcrsMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEEF932415B7F500104B8B /* BfcrsMailView.swift */; };
+		5CEEEF962415B8BA00104B8B /* Bfcrs_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEEF952415B8BA00104B8B /* Bfcrs_row.swift */; };
+		5CEEEF982415B91300104B8B /* bfcrs.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CEEEF972415B91300104B8B /* bfcrs.json */; };
+		5CEEEF9A2415C04300104B8B /* AsrsMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEEF992415C04300104B8B /* AsrsMailView.swift */; };
 		5CF3660023E660420065BF73 /* Mdq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA52A5B23D952BC0028AD56 /* Mdq.swift */; };
+		5CFA66FD241715EF005B51CA /* comorbidity_guides.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA66FC241715EF005B51CA /* comorbidity_guides.json */; };
 		5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856023C40DFD0075DA6E /* ToolsView.swift */; };
 		5CFB856323C411020075DA6E /* DSMVview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB856223C411020075DA6E /* DSMVview.swift */; };
 /* End PBXBuildFile section */
@@ -70,9 +79,13 @@
 		5C362C8623B3FCAA003E543E /* BenzoConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzoConversion.swift; sourceTree = "<group>"; };
 		5C362C8823B8039C003E543E /* DepakoteDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepakoteDosing.swift; sourceTree = "<group>"; };
 		5C362C8A23B8F87C003E543E /* FloatingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenu.swift; sourceTree = "<group>"; };
+		5C4509BE241E8D380066C912 /* TrailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsView.swift; sourceTree = "<group>"; };
+		5C4509C2241E9DF00066C912 /* PKCanvasRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCanvasRepresentation.swift; sourceTree = "<group>"; };
 		5C47816D23F2263D008F2CF4 /* Asrs_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asrs_row.swift; sourceTree = "<group>"; };
 		5C47816F23F226DD008F2CF4 /* asrs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = asrs.json; sourceTree = "<group>"; };
 		5C47817123F22A54008F2CF4 /* Asrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asrs.swift; sourceTree = "<group>"; };
+		5C6CDECB24489CA8006C25A8 /* PatientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsView.swift; sourceTree = "<group>"; };
+		5C7114162448DE84006EE934 /* DSM_Dx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSM_Dx.swift; sourceTree = "<group>"; };
 		5C8351DF2414006E00C7557D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		5C9060C323DA81DA009AFFDC /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		5CA0DAC223AAA40A0063B3AE /* medications.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medications.json; sourceTree = "<group>"; };
@@ -99,9 +112,9 @@
 		5CDAA91623A831A300B4CEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CDAA91823A831A300B4CEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CDAA92023A93A3800B4CEFF /* Calculators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculators.swift; sourceTree = "<group>"; };
-		5CDAA92223A9423600B4CEFF /* QuickReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickReferences.swift; sourceTree = "<group>"; };
+		5CDAA92223A9423600B4CEFF /* Landmark_Publications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark_Publications.swift; sourceTree = "<group>"; };
 		5CDAA92423A9426100B4CEFF /* Scales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scales.swift; sourceTree = "<group>"; };
-		5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treatment Guidelines.swift"; sourceTree = "<group>"; };
+		5CDAA92823A98B3E00B4CEFF /* Comorbidity_Guides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comorbidity_Guides.swift; sourceTree = "<group>"; };
 		5CDAA92A23A98B5400B4CEFF /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
 		5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDosing.swift; sourceTree = "<group>"; tabWidth = 3; wrapsLines = 1; };
@@ -110,6 +123,11 @@
 		5CEEEF8D2415AE4200104B8B /* gad7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gad7.json; sourceTree = "<group>"; };
 		5CEEEF8F2415B1EC00104B8B /* Gad7_row_finalQual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gad7_row_finalQual.swift; sourceTree = "<group>"; };
 		5CEEEF912415B40800104B8B /* Bfcrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bfcrs.swift; sourceTree = "<group>"; };
+		5CEEEF932415B7F500104B8B /* BfcrsMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BfcrsMailView.swift; sourceTree = "<group>"; };
+		5CEEEF952415B8BA00104B8B /* Bfcrs_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bfcrs_row.swift; sourceTree = "<group>"; };
+		5CEEEF972415B91300104B8B /* bfcrs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bfcrs.json; sourceTree = "<group>"; };
+		5CEEEF992415C04300104B8B /* AsrsMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsrsMailView.swift; sourceTree = "<group>"; };
+		5CFA66FC241715EF005B51CA /* comorbidity_guides.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = comorbidity_guides.json; sourceTree = "<group>"; };
 		5CFB856023C40DFD0075DA6E /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 		5CFB856223C411020075DA6E /* DSMVview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSMVview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +146,6 @@
 		5C362C8523B3FC78003E543E /* Calculators */ = {
 			isa = PBXGroup;
 			children = (
-				5CDAA92223A9423600B4CEFF /* QuickReferences.swift */,
 				5C362C8823B8039C003E543E /* DepakoteDosing.swift */,
 				5C362C8623B3FCAA003E543E /* BenzoConversion.swift */,
 				5CDAA92F23A98E9C00B4CEFF /* LiDosing.swift */,
@@ -139,9 +156,10 @@
 		5C5A014123C3A97300ACC894 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5CDAA92223A9423600B4CEFF /* Landmark_Publications.swift */,
 				5CDAA92023A93A3800B4CEFF /* Calculators.swift */,
 				5CDAA92423A9426100B4CEFF /* Scales.swift */,
-				5CDAA92823A98B3E00B4CEFF /* Treatment Guidelines.swift */,
+				5CDAA92823A98B3E00B4CEFF /* Comorbidity_Guides.swift */,
 				5CDAA92A23A98B5400B4CEFF /* Articles.swift */,
 			);
 			path = Tools;
@@ -150,6 +168,8 @@
 		5C5A014223C3A9D700ACC894 /* Json */ = {
 			isa = PBXGroup;
 			children = (
+				5CFA66FC241715EF005B51CA /* comorbidity_guides.json */,
+				5CEEEF972415B91300104B8B /* bfcrs.json */,
 				5C20E1B624145B5B00AF18FE /* phq9.json */,
 				5CEEEF8D2415AE4200104B8B /* gad7.json */,
 				5C47816F23F226DD008F2CF4 /* asrs.json */,
@@ -167,6 +187,7 @@
 		5C7E2FFA23BE71B9005AB2DB /* Scales */ = {
 			isa = PBXGroup;
 			children = (
+				5C4509BE241E8D380066C912 /* TrailsView.swift */,
 				5C20E1B224145A5400AF18FE /* Phq9.swift */,
 				5CC1FFF3241578E900A4ADAB /* Gad7.swift */,
 				5CC1FFF52415792700A4ADAB /* Gad7_row.swift */,
@@ -175,6 +196,7 @@
 				5CEEEF8F2415B1EC00104B8B /* Gad7_row_finalQual.swift */,
 				5CA52A5B23D952BC0028AD56 /* Mdq.swift */,
 				5CEEEF912415B40800104B8B /* Bfcrs.swift */,
+				5CEEEF952415B8BA00104B8B /* Bfcrs_row.swift */,
 				5CD6DECF23E20786008E0F77 /* Aims.swift */,
 				5C8351DF2414006E00C7557D /* ModalView.swift */,
 				5CD6DED523E21938008E0F77 /* Aims_qual_row.swift */,
@@ -188,7 +210,10 @@
 		5C9060C223DA81A0009AFFDC /* UI Customization */ = {
 			isa = PBXGroup;
 			children = (
+				5C4509C2241E9DF00066C912 /* PKCanvasRepresentation.swift */,
+				5CEEEF932415B7F500104B8B /* BfcrsMailView.swift */,
 				5CEEEF8B2415AD5D00104B8B /* Gad7MailView.swift */,
+				5CEEEF992415C04300104B8B /* AsrsMailView.swift */,
 				5C20E1B824145D0400AF18FE /* Phq9MailView.swift */,
 				5CB827C62413297200E5890F /* AimsMailView.swift */,
 				5CDF996E23C2E53A00F33CF9 /* CheckView.swift */,
@@ -223,8 +248,10 @@
 				5C5A014223C3A9D700ACC894 /* Json */,
 				5C5A014123C3A97300ACC894 /* Tools */,
 				5CDAA90E23A831A200B4CEFF /* TabsView.swift */,
+				5C6CDECB24489CA8006C25A8 /* PatientsView.swift */,
 				5C20E1B024144A8800AF18FE /* SettingsView.swift */,
 				5CFB856223C411020075DA6E /* DSMVview.swift */,
+				5C7114162448DE84006EE934 /* DSM_Dx.swift */,
 				5CDAA92C23A98B8200B4CEFF /* MedicationsView.swift */,
 				5CFB856023C40DFD0075DA6E /* ToolsView.swift */,
 				5CDAA90723A831A200B4CEFF /* AppDelegate.swift */,
@@ -306,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA0DAC323AAA40A0063B3AE /* medications.json in Resources */,
+				5CFA66FD241715EF005B51CA /* comorbidity_guides.json in Resources */,
 				5CD6DED423E20B07008E0F77 /* aims_10-13.json in Resources */,
 				5C47817023F226DD008F2CF4 /* asrs.json in Resources */,
 				5CDAA91723A831A300B4CEFF /* LaunchScreen.storyboard in Resources */,
@@ -317,6 +345,7 @@
 				5CDAA91423A831A300B4CEFF /* Preview Assets.xcassets in Resources */,
 				5CA0DAC523AD4D420063B3AE /* dsm.json in Resources */,
 				5CDAA91123A831A300B4CEFF /* Assets.xcassets in Resources */,
+				5CEEEF982415B91300104B8B /* bfcrs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CFB856123C40DFD0075DA6E /* ToolsView.swift in Sources */,
+				5C7114172448DE84006EE934 /* DSM_Dx.swift in Sources */,
+				5CEEEF962415B8BA00104B8B /* Bfcrs_row.swift in Sources */,
+				5C4509BF241E8D380066C912 /* TrailsView.swift in Sources */,
+				5CEEEF9A2415C04300104B8B /* AsrsMailView.swift in Sources */,
 				5C20E1B524145A7800AF18FE /* Phq9_row.swift in Sources */,
 				5CD6DED023E20786008E0F77 /* Aims.swift in Sources */,
 				5CDAA92D23A98B8200B4CEFF /* MedicationsView.swift in Sources */,
@@ -336,6 +369,8 @@
 				5CDAA90823A831A200B4CEFF /* AppDelegate.swift in Sources */,
 				5CDAA92123A93A3800B4CEFF /* Calculators.swift in Sources */,
 				5CDAA92523A9426100B4CEFF /* Scales.swift in Sources */,
+				5C4509C3241E9DF00066C912 /* PKCanvasRepresentation.swift in Sources */,
+				5CEEEF942415B7F500104B8B /* BfcrsMailView.swift in Sources */,
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
 				5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */,
 				5CEEEF902415B1EC00104B8B /* Gad7_row_finalQual.swift in Sources */,
@@ -344,7 +379,7 @@
 				5C20E1B924145D0400AF18FE /* Phq9MailView.swift in Sources */,
 				5CEEEF8C2415AD5D00104B8B /* Gad7MailView.swift in Sources */,
 				5CC1FFF62415792700A4ADAB /* Gad7_row.swift in Sources */,
-				5CDAA92323A9423600B4CEFF /* QuickReferences.swift in Sources */,
+				5CDAA92323A9423600B4CEFF /* Landmark_Publications.swift in Sources */,
 				5C362C8923B8039C003E543E /* DepakoteDosing.swift in Sources */,
 				5CD6DED623E21938008E0F77 /* Aims_qual_row.swift in Sources */,
 				5C362C8B23B8F87C003E543E /* FloatingMenu.swift in Sources */,
@@ -356,12 +391,13 @@
 				5CDAA90A23A831A200B4CEFF /* SceneDelegate.swift in Sources */,
 				5CC1FFF4241578E900A4ADAB /* Gad7.swift in Sources */,
 				5CDAA93023A98E9C00B4CEFF /* LiDosing.swift in Sources */,
-				5CDAA92923A98B3E00B4CEFF /* Treatment Guidelines.swift in Sources */,
+				5CDAA92923A98B3E00B4CEFF /* Comorbidity_Guides.swift in Sources */,
 				5C9060C423DA81DA009AFFDC /* CustomToggle.swift in Sources */,
 				5CDAA92B23A98B5400B4CEFF /* Articles.swift in Sources */,
 				5C362C8723B3FCAA003E543E /* BenzoConversion.swift in Sources */,
 				5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */,
 				5CEEEF922415B40800104B8B /* Bfcrs.swift in Sources */,
+				5C6CDECC24489CA8006C25A8 /* PatientsView.swift in Sources */,
 				5C20E1BB24145F1800AF18FE /* Phq9_row_finalQual.swift in Sources */,
 				5CF3660023E660420065BF73 /* Mdq.swift in Sources */,
 				5CA52A5E23D957D20028AD56 /* JsonHelper.swift in Sources */,

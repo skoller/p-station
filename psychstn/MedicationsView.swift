@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MedicationsView: View {
     var body: some View {
-        Text("this is a list of medications")
+        Text("Coming Soon!")
     }
 }
 

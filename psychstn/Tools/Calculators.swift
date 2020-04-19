@@ -11,8 +11,7 @@ import SwiftUI
 struct Calculators: View {
  
     var body: some View {
-            List
-            {
+        List {
                 NavigationLink("Benzo Conversion", destination: BenzoConversion())
                 NavigationLink("Lithium Dosing", destination: LiDosing())
         }.navigationBarTitle("Calculators")
