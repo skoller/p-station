@@ -21,7 +21,7 @@ struct DSMVview: View {
                     .font(.title)) {
                         ForEach(group.disorders) { dx in
                             HStack {
-                                NavigationLink(destination: DSM_Dx(dx: dx.name, cat: group.category, dxdescr: dx.description, crit: dx.criteria))
+                                NavigationLink(destination: DSM_Dx(dx: dx.name, dx_descr: dx.description, crit_req: dx.criteria_req, crit: dx.criteria))
                                     { Text(dx.name)
                                         .fontWeight(.thin)
                                         .font(.body)
@@ -46,10 +46,9 @@ class DsmDisorder: Codable, Identifiable {
     var id: UUID
     var name: String
     var description: String
+    var criteria_req: String
     var criteria: Array<String>
 }
-
-class DsmCriteria: Codable {}
 
 struct DSMVview_Previews: PreviewProvider {
     static var previews: some View {
@@ -57,5 +56,3 @@ struct DSMVview_Previews: PreviewProvider {
     }
 }
 
-
-//["1", "2", "3"]
