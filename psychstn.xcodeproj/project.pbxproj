@@ -34,6 +34,7 @@
 		5CB827C72413297200E5890F /* AimsMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB827C62413297200E5890F /* AimsMailView.swift */; };
 		5CC1FFF4241578E900A4ADAB /* Gad7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1FFF3241578E900A4ADAB /* Gad7.swift */; };
 		5CC1FFF62415792700A4ADAB /* Gad7_row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1FFF52415792700A4ADAB /* Gad7_row.swift */; };
+		5CC62289245E33B900CA4DB3 /* PatientsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC62288245E33B900CA4DB3 /* PatientsTab.swift */; };
 		5CD6DED023E20786008E0F77 /* Aims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD6DECF23E20786008E0F77 /* Aims.swift */; };
 		5CD6DED223E20AB7008E0F77 /* aims_0-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED123E20AB7008E0F77 /* aims_0-9.json */; };
 		5CD6DED423E20B07008E0F77 /* aims_10-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CD6DED323E20B07008E0F77 /* aims_10-13.json */; };
@@ -97,6 +98,7 @@
 		5CB827C62413297200E5890F /* AimsMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimsMailView.swift; sourceTree = "<group>"; };
 		5CC1FFF3241578E900A4ADAB /* Gad7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gad7.swift; sourceTree = "<group>"; };
 		5CC1FFF52415792700A4ADAB /* Gad7_row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gad7_row.swift; sourceTree = "<group>"; };
+		5CC62288245E33B900CA4DB3 /* PatientsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsTab.swift; sourceTree = "<group>"; };
 		5CD6DECF23E20786008E0F77 /* Aims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aims.swift; sourceTree = "<group>"; usesTabs = 0; };
 		5CD6DED123E20AB7008E0F77 /* aims_0-9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "aims_0-9.json"; path = "psychstn/Scales/aims_0-9.json"; sourceTree = SOURCE_ROOT; };
 		5CD6DED323E20B07008E0F77 /* aims_10-13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "aims_10-13.json"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		5CDAA90623A831A200B4CEFF /* psychstn */ = {
 			isa = PBXGroup;
 			children = (
+				5CC62288245E33B900CA4DB3 /* PatientsTab.swift */,
 				5C7E2FFA23BE71B9005AB2DB /* Scales */,
 				5C362C8523B3FC78003E543E /* Calculators */,
 				5C5A014223C3A9D700ACC894 /* Json */,
@@ -373,6 +376,7 @@
 				5CEEEF942415B7F500104B8B /* BfcrsMailView.swift in Sources */,
 				5CDAA90D23A831A200B4CEFF /* psychstn.xcdatamodeld in Sources */,
 				5C47816E23F2263D008F2CF4 /* Asrs_row.swift in Sources */,
+				5CC62289245E33B900CA4DB3 /* PatientsTab.swift in Sources */,
 				5CEEEF902415B1EC00104B8B /* Gad7_row_finalQual.swift in Sources */,
 				5CD6DED823E27CFA008E0F77 /* Aims_quant_row.swift in Sources */,
 				5CB827C72413297200E5890F /* AimsMailView.swift in Sources */,

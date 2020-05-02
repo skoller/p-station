@@ -106,9 +106,13 @@
         {
             "id": "a863cf74-4746-454a-a09f-005b3c6df187",
             "name": "Uspecified Communication Disorder",
-             "description": "the description",
-             "criteria_req": "(Must meet _)",
-             "criteria": ["1", "2", "3"]
+             "description": "",
+             "criteria_req": "(Must meet all criteria below)",
+             "criteria":
+             [
+                 "1: Distress or impairement in social, work, or school domains related to communication",
+                 "2: Criteria for other communication or developmental disorders not fully met"
+             ]
         },
         {
             "id": "634623f0-cb12-4966-a64f-83be1e10e2fd",

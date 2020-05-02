@@ -31,6 +31,11 @@ class Scale_scores: ObservableObject {
     @Published var bfcrs_array = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 }
 
+class PatientCensus: ObservableObject {
+    @Published var patients = [""]
+}
+
+
 
 extension View {
     public func addBorder<S>(_ content: S, width: CGFloat = 1, cornerRadius: CGFloat) -> some View where S : ShapeStyle {
@@ -78,6 +83,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var settings = UserSettings()
     var scores = Scale_scores()
+    var patient_census = PatientCensus()
   
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -97,7 +103,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: tabsView
                 .environmentObject(settings)
-                .environmentObject(scores))
+                .environmentObject(scores)
+                .environmentObject(patient_census))
             self.window = window
             window.makeKeyAndVisible()
         }

@@ -48,7 +48,7 @@ struct TabsView: View {
     
             
             
-            PatientsView()
+            PatientsTab()
                 .font(.title)
                 .tabItem {
                     VStack {
