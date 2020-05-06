@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42AB3A11F19F276DB3EA1718 /* Pods_psychstn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599013D6B76F230AE4E34E4A /* Pods_psychstn.framework */; };
 		5C09E2F423DB63330000C03D /* DismissingKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */; };
 		5C20E1B124144A8800AF18FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B024144A8800AF18FE /* SettingsView.swift */; };
 		5C20E1B324145A5400AF18FE /* Phq9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20E1B224145A5400AF18FE /* Phq9.swift */; };
@@ -70,6 +71,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0567BF7636E240F7CEFE0646 /* Pods-psychstn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psychstn.debug.xcconfig"; path = "Target Support Files/Pods-psychstn/Pods-psychstn.debug.xcconfig"; sourceTree = "<group>"; };
+		16CA35E200D4D449F1961F11 /* Pods-psychstn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-psychstn.release.xcconfig"; path = "Target Support Files/Pods-psychstn/Pods-psychstn.release.xcconfig"; sourceTree = "<group>"; };
+		599013D6B76F230AE4E34E4A /* Pods_psychstn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_psychstn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C09E2F323DB63330000C03D /* DismissingKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DismissingKeyboard.swift; path = psychstn/DismissingKeyboard.swift; sourceTree = SOURCE_ROOT; };
 		5C20E1B024144A8800AF18FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Tools/SettingsView.swift; sourceTree = "<group>"; };
 		5C20E1B224145A5400AF18FE /* Phq9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phq9.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AB3A11F19F276DB3EA1718 /* Pods_psychstn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +236,8 @@
 			children = (
 				5CDAA90623A831A200B4CEFF /* psychstn */,
 				5CDAA90523A831A200B4CEFF /* Products */,
+				704AB8E566512456BB19909F /* Pods */,
+				E34B4FE147D3498336A5AE04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -277,6 +284,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		704AB8E566512456BB19909F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0567BF7636E240F7CEFE0646 /* Pods-psychstn.debug.xcconfig */,
+				16CA35E200D4D449F1961F11 /* Pods-psychstn.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E34B4FE147D3498336A5AE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599013D6B76F230AE4E34E4A /* Pods_psychstn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,9 +309,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CDAA91B23A831A300B4CEFF /* Build configuration list for PBXNativeTarget "psychstn" */;
 			buildPhases = (
+				40755D371987AF9304F9A941 /* [CP] Check Pods Manifest.lock */,
 				5CDAA90023A831A200B4CEFF /* Sources */,
 				5CDAA90123A831A200B4CEFF /* Frameworks */,
 				5CDAA90223A831A200B4CEFF /* Resources */,
+				9ADDBFE7322C47B2B2E65425 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,6 +380,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40755D371987AF9304F9A941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-psychstn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADDBFE7322C47B2B2E65425 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psychstn/Pods-psychstn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-psychstn/Pods-psychstn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-psychstn/Pods-psychstn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CDAA90023A831A200B4CEFF /* Sources */ = {
@@ -538,6 +607,7 @@
 		};
 		5CDAA91C23A831A300B4CEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0567BF7636E240F7CEFE0646 /* Pods-psychstn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,7 +620,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nathan.psychstn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = psychstn;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -558,6 +628,7 @@
 		};
 		5CDAA91D23A831A300B4CEFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16CA35E200D4D449F1961F11 /* Pods-psychstn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,7 +641,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Nathan.psychstn;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = psychstn;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

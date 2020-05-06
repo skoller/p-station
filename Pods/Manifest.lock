@@ -1,0 +1,20 @@
+PODS:
+  - Disk (0.6.4)
+  - Resolver (1.1.4)
+
+DEPENDENCIES:
+  - Disk
+  - Resolver
+
+SPEC REPOS:
+  trunk:
+    - Disk
+    - Resolver
+
+SPEC CHECKSUMS:
+  Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
+  Resolver: 1f4c046255cbadfa97094692e16e940d4329779f
+
+PODFILE CHECKSUM: 29385b087b3ead17be47a4fdf4437b99afb8ff81
+
+COCOAPODS: 1.9.1

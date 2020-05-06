@@ -1,0 +1,6 @@
+framework module Pods_psychstn {
+  umbrella header "Pods-psychstn-umbrella.h"
+
+  export *
+  module * { export * }
+}
